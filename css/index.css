@@ -4,9 +4,9 @@
 }
 
 body{
-    background-color: beige;
     height: 100vh;
     overflow: hidden;
+    min-width: 1175px;
 }
 
 
@@ -51,9 +51,27 @@ body{
 }
 .inner_slide_wrap{
     z-index: 1;
+    height: 100%;
 }
 .inner_slide{
     visibility: hidden;
+    padding: 10% 10%;
+}
+.inner_slide h1, h3{
+    color: white;
+    text-align: start;
+}
+.inner_slide h1{
+    font-size: 50px;
+}
+.inner_slide h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.inner_slide:nth-of-type(1){
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1637929476734-bd7f5f78e40a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 .active{
     visibility: visible;
