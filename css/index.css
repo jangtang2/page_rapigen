@@ -36,7 +36,7 @@ body{
 .slide:nth-of-type(2){
     width: 100%;
     height: 100%;
-    background-image: url("https://images.unsplash.com/photo-1578496479273-878c39a9d5e0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: white;
 }
 .slide:nth-of-type(3){
     width: 100%;
@@ -47,6 +47,30 @@ body{
     width: 100%;
     height: 100%;
     background-image: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.slide:nth-of-type(2) .white_space{
+    width:100%;
+    height: 100%;
+    padding: 10px 5% ;
+    color: black;
+}
+.white_space > h1{
+    width: 90%;
+    font-size: 72px;
+    margin-top: 10px;
+}
+.white_space> h4{
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    opacity: 60%;
+}
+.slide:nth-of-type(2) h4{
+    color: black;
 }
 .slide .silk{
     width:100%;
@@ -176,19 +200,17 @@ body{
     margin-bottom: 10px;
 }
 .prod_card{
-    width: 14vw;
-    height: 22vh;
+    width: 16vw;
+    height: 50vh;
     margin: 10px 30px;
-    border-radius: 3vh;
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 .prod_title{
-    background-color: rgba(255, 255, 255, 0.7);
-    height: 15%;
+    height:100%;
     width: 100%;
-    color: black;
+    color:white;
     font-size: 16px;
     font-weight: 600;
     padding-top: 5%;
