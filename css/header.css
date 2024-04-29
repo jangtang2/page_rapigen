@@ -130,3 +130,15 @@ ul li{
     animation: scale-in-top 0.3s;
     display: block;
 }
+
+.lang_choice ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.lang_choice ul li{
+  display: none;
+}
+.lang_choice:hover ul li{
+  display: block;
+}
