@@ -37,15 +37,15 @@ ul li{
 
 .category{
     width: 70%;
-    margin: 10px;
     line-height: 50px;
     text-align: center;
 }
 
 .category >ul > li{
     width: 200px;
-    text-align: center;
+    text-align:center;
     font-weight: 600;
+    padding: 10px;
 }
 .category >ul > li>ul{
     display: none;
@@ -53,6 +53,8 @@ ul li{
     background-color: white;
     z-index: 1;
     border-top: 5px solid #C8102E;
+    margin-top: 10px;
+    text-align: left;
 }
 
 
@@ -64,15 +66,12 @@ ul li{
     height: 30px;
     font-weight: 400;
     font-size: 11px;
-    margin: 0px;
-    padding: 0px;
-}
-.category >ul > li>ul>li:hover{
-    background-color: be;
+    padding-left: 5px;
 }
 
 
 .prouct_type{
+    text-align: center;
     background-color: gray;
     color: white;
 }
