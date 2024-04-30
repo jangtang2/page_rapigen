@@ -324,14 +324,18 @@ body{
     -webkit-line-clamp : 4;
     -webkit-box-orient: vertical;
 }
-
 .contact_btn_section{
     width: 90%;
     display: flex;
     justify-content: center;
 }
-.contact_btn{
+.contact_btn_section> a{
     width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.contact_btn{
+    width: 100%;
     height: 5vh;
     background-color: #C8102E;
     font-size: 20px;
@@ -346,6 +350,7 @@ body{
     background-color: rgb(87, 87, 87);
 }
 
+
 .contact_coin{
     height: 100%;
     width: 30%;
@@ -353,7 +358,7 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.contact_coin > div{
+.contact_coin >div{
     height: 50%;
     background-color: white;
     border-radius: 20px;
@@ -363,9 +368,6 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-.contact_btn:nth-of-type(2) .gray_text{
-    color: rgb(87, 87, 87);
 }
 .contact_location{
     height: 100%;
