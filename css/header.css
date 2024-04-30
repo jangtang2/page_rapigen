@@ -142,13 +142,18 @@ ul li{
   display: none;
 }
 .lang_choice:hover ul li{
+    margin-top: 5px;
   display: block;
 }
 
 .shop_link:hover{
-  color: #C8102E;
+  color: white;
+  background-color: #C8102E;
+  padding: 5px;
 }
 
 .lang_choice a:hover{
-  color: #C8102E;
+  color: white;
+  background-color: #C8102E;
+  padding: 5px;
 }
