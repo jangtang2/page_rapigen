@@ -98,14 +98,20 @@ body{
         
         <div class="right_header">
             <div><a class="shop_link" href="https://rapigencare.com/" target="_blank">SHOP</a></div>
-            <div class="lang_choice"><a href="index.html">KOR</a>
-                <ul>
-                    <li><a href="#">ENG</a></li>
-                </ul>
-            </div>
+            <div>
+                <div class="lang_choice" id="langSetBtn">
+                <div class="lang_placeholder" id="langPlaceholder">KOR</div>
+                <div id="langOption">
+                    <div class="lang_btn_list" > 
+                        <a class="lang_btn" href="index.html">KOR</a>
+                        <a class="lang_btn" href="#">ENG</a>
+                        <a class="lang_btn" href="#">ETC</a>
+                    </div>
+                </div>
+            </div></div>
         </div>
     </header>
-
+    <script src="js/langBtn.js"></script>
     
     <div class="slide_wrap">
         <div class="slide">
@@ -267,6 +273,7 @@ body{
                 </a>
                 </div>
             </div>
+
             <footer>
                 <div class="footer_logo"><img src="img/logo-rapigen.png"></div>
                 <div class="footer_data">
