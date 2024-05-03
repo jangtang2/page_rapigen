@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/emailFormUSA.css">
     <script src="https://kit.fontawesome.com/a5da5bf77e.js" crossorigin="anonymous"></script>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,8 @@
 
 body{
     height: 100vh;
-    overflow: hidden;
+    overflow-y:auto;
+    overflow-x: hidden;
     min-width: 1175px;
 }
 </style>
@@ -121,16 +124,47 @@ body{
         
         <div class="right_header">
             <div><a class="shop_link" href="https://rapigencare.com/" target="_blank">SHOP</a></div>
-            <div class="lang_choice"><a href="index.html">KOR</a>
-                <ul>
-                    <li><a href="#">ENG</a></li>
-                </ul>
-            </div>
+            <div>
+                <div class="lang_choice" id="langSetBtn">
+                <div class="lang_placeholder" id="langPlaceholder">KOR</div>
+                <div id="langOption">
+                    <div class="lang_btn_list" > 
+                        <a class="lang_btn" href="index.html">KOR</a>
+                        <a class="lang_btn" href="#">ENG</a>
+                        <a class="lang_btn" href="#">ETC</a>
+                    </div>
+                </div>
+            </div></div>
         </div>
     </header>
+    <script src="js/langBtn.js"></script>
 
-    <form id="contact-form">
-        <!-- To simplify the tutorial, the value is static. -->
+    <div class="title_banner"><div>Contact Center</div></div>
+    <div class="ment_text">The person in charge of each field will check and respond quickly.</div>
+    <form class="contact_form">
+        <div class="manual">
+            <div>※ Please enter the item.</div>
+            <div>* Essential</div>
+        </div>
+        <input type="hidden" name="contact_number" value="697483">
+        <div class="input_section">
+            <div><label>Title</label><input type="text" name="title" placeholder="Title"></div>
+            <div><label>Name<h6>*</h6></label><input type="text" name="from_name" placeholder="Name" required></div>
+            <div><label>E-mail<h6>*</h6></label><input type="email" name="from_email" placeholder="E-mail" required></div>
+            <div><label>Tel</label><input type="tel" name="tel" placeholder="Tel"></div>
+            <div><label>Country</label><input type="text" name="country" placeholder="Country"></div>
+            <div><label>Company</label><input type="text" name="company" placeholder="Company"></div>
+            <div><label>Position</label><input type="text" name="position" placeholder="Position"></div>
+            <div><label>Message<h6>*</h6></label><textarea name="message" placeholder="The person in charge of each field will check and respond quickly." required></textarea></div>
+            <label class="checkbox_label">
+                <input type="checkbox" class="option-input checkbox" required />I agree with the personal information processing policy and register.
+            </label>
+            <article class="submit_btn"><input type="submit" value="Send"></article>
+            
+        </div>
+    </form>
+
+    <!--form id="contact-form">
         <input type="hidden" name="contact_number" value="697483">
         <input type="hidden" name="to_name" value="Rapigen">
         <label>Name</label>
@@ -140,6 +174,23 @@ body{
         <label>Message</label>
         <textarea name="message"></textarea>
         <input type="submit" value="Send">
-    </form>
+    </form-->
+    <footer>
+        <div class="footer_logo"><img src="img/logo-rapigen.png"></div>
+        <div class="footer_data">
+            <div class="footer_data_section">
+                <div class="footer_data_icon">
+                    <a target="_blank" href="https://www.linkedin.com/company/rapigen-inc"><i class="fab fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC3V23x7mrtWr3tfTWPMRJIg"><i class="fab fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer_data_text">
+                    <h6>[본사] : 경기도 수원시 권선구 산업로 155번길 161 (우: 16648)</h6>
+                    <h6>[미국지사] : 155 Gibbs Street, Suite 434/435, Rockville, MD, 20850 U.S.A.</h6>
+                    <h6>TEL : 031-427-4677  |   FAX : 031-427-4678</h6>
+                    <h6 class="copyright">Copyright ⓒ 2016 Rapigen Inc. All rights reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
