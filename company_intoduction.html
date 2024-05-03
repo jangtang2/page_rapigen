@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/emailFormUSA.css">
+    <link rel="stylesheet" type="text/css" href="css/companyIntroduction.css">
     <script src="https://kit.fontawesome.com/a5da5bf77e.js" crossorigin="anonymous"></script>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +53,7 @@ body{
         }
     </style>
 </head>
+
 <body>
     <header>
         <div class="left_header">
@@ -64,9 +65,9 @@ body{
         <div class="middle_header">
             <nav class="category">
                 <ul>
-                    <li><a href="#">회사소개</a>
+                    <li><a href="company_intoduction.html">회사소개</a>
                         <ul>
-                            <li><a href="#">기업소개</a></li>
+                            <li><a href="company_intoduction.html">기업소개</a></li>
                             <li><a href="#">CEO 메세지</a></li>
                             <li><a href="#">연혁 & 조직도</a></li>
                             <li><a href="#">CI & VISION</a></li>
@@ -139,42 +140,25 @@ body{
     </header>
     <script src="js/langBtn.js"></script>
 
-    <div class="title_banner"><div>Contact Center</div></div>
-    <div class="ment_text">The person in charge of each field will check and respond quickly.</div>
-    <form class="contact_form">
-        <div class="manual">
-            <div>※ Please enter the item.</div>
-            <div>* Essential</div>
+    <div class="title_banner"><div>기업 소개</div></div>
+    <div class="inner_body">
+        <div class="text_section">
+            <h1>세계 일류 체외진단 전문기업을 향한 끊임없는 도전,</h1>
+            <h2>인류의 건강을 위한 효율적 가치를 창조하겠습니다.</h2>
+            <span>
+                ㈜래피젠은 체외진단키트 및 진단기술 분야에 선도적이며 우수한 원천기술을 보유한 체외진단 전문기업입니다.<br>
+                신속진단키트 분야에 Black Gold Nano Particle을 최초로 상용화한 래피젠의 제품들은 뛰어난 품질과 재현성을 보유하고 있습니다.<br>
+                현재 전세계 52개국 이상에 제품을 수출하고 있으며, 다양한 국제기구와의 협업 프로젝트를 비롯해<br>
+                신규 R&D 및 국내 유수기업과의 상품 OEM 등 다양한 사업을 진행하고 있습니다.
+            </span>
         </div>
-        <input type="hidden" name="contact_number" value="697483">
-        <div class="input_section">
-            <div><label>Title</label><input type="text" name="title" placeholder="Title"></div>
-            <div><label>Name<h6>*</h6></label><input type="text" name="from_name" placeholder="Name" required></div>
-            <div><label>E-mail<h6>*</h6></label><input type="email" name="from_email" placeholder="E-mail" required></div>
-            <div><label>Tel</label><input type="tel" name="tel" placeholder="Tel"></div>
-            <div><label>Country</label><input type="text" name="country" placeholder="Country"></div>
-            <div><label>Company</label><input type="text" name="company" placeholder="Company"></div>
-            <div><label>Position</label><input type="text" name="position" placeholder="Position"></div>
-            <div><label>Message<h6>*</h6></label><textarea name="message" placeholder="The person in charge of each field will check and respond quickly." required></textarea></div>
-            <label class="checkbox_label">
-                <input type="checkbox" class="option-input checkbox" required />I agree with the personal information processing policy and register.
-            </label>
-            <article class="submit_btn"><input type="submit" value="Send"></article>
-            
+        <div class="youtube_section">
+            <iframe width="1048" height="400" src="https://www.youtube.com/embed/fSTLitCYdO8?si=zlB2EyfXKQFGfkaf" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
         </div>
-    </form>
-
-    <!--form id="contact-form">
-        <input type="hidden" name="contact_number" value="697483">
-        <input type="hidden" name="to_name" value="Rapigen">
-        <label>Name</label>
-        <input type="text" name="from_name">
-        <label>Email</label>
-        <input type="email" name="from_email">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
-    </form-->
+    </div>
     <footer>
         <div class="footer_logo"><img src="img/logo-rapigen.png"></div>
         <div class="footer_data">
@@ -193,4 +177,3 @@ body{
         </div>
     </footer>
 </body>
-</html>
