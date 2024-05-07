@@ -17,6 +17,7 @@ header{
     width: 15%;
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .middle_header{
     width: 75%;
@@ -27,11 +28,13 @@ header{
     justify-content: space-around;
     padding-right: 25px;
 }
-
+.left_header >a{
+    display: flex;
+    justify-content: center;
+}
 .left_header> a>img{
-    width: max-content;
-    height: 45px;
-    text-align: left;
+    width: 60%;
+    height: max-content;
 }
 .just_bar{
     display: flex;

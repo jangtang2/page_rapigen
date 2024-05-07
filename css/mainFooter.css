@@ -2,7 +2,7 @@ footer{
     position: absolute;
     bottom: 0px;
     width: 100%;
-    height: 40%;
+    height: 35%;
     background-color: #232424;
     z-index: 1;
     display: flex;
@@ -13,23 +13,22 @@ footer{
     display: flex;
     justify-content: start;
     flex-direction: column;
-    padding-bottom: 10%;
 }
 .footer_logo img{
     width: 25%;
     height: 15%;
     object-fit: scale-down;
     margin: 8% 5%;
-    filter: grayscale(1);
+    fill: #5c5c5c;
 }
 .footer_data{
     width: 45%;
     height: 100%;
-    padding: 1.5%;
+    padding: 1%;
 }
 .footer_data_section{
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-left: solid #5c5c5c  2px;
 }
 .footer_data_icon{

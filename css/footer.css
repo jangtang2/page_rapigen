@@ -16,7 +16,6 @@ footer{
     height: 15%;
     object-fit: scale-down;
     margin: 8% 5%;
-    filter: grayscale(1);
 }
 .footer_data{
     width: 45%;

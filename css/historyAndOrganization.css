@@ -24,9 +24,14 @@
     margin-bottom: 5%;
 }
 .history_coment{
-    width: 15%;
+    width: 13%;
     font-size: 24px;
     font-weight: 800;
+    background-color: #C8102E;
+    color: white;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .history_scroll{
     width: 55%;
@@ -65,10 +70,14 @@
     margin-bottom: 10%;
 }
 .organization_coment{
-    width: 15%;
-    height: 60vh;
+    width: 13%;
     font-size: 24px;
     font-weight: 800;
+    background-color: #C8102E;
+    color: white;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .organization_img{
     width: 55%;
@@ -77,6 +86,7 @@
     border-right: 1px solid gray;
 }
 .organization_img img{
+    width: 80%;
     margin: 3% 10%;
     object-fit: scale-down;
 }
