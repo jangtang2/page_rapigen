@@ -1,0 +1,101 @@
+.title_banner{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1589519160732-57fc498494f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.title_banner div{
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 15%;
+}
+.inner_body{
+    width: 100%;
+    padding: 0px 15%;
+    margin-bottom: 10%;
+}
+.intro_section{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: solid 1px #C8102E;
+    padding-bottom: 2%;
+}  
+.text_on_img{
+    width: 100%;
+}
+.text_on_img h1{
+    color:white;
+    margin-bottom: 2%;
+    background-color: #C8102E;
+    padding : 5px 20px;
+}
+.text_on_img div{
+    color: black;
+    font-weight: 600;
+    font-size: 18px ;
+    line-height: 40px;
+}
+.summary_section{
+    width: 70%;
+    margin: 2% 0%;
+}
+.summary_item{
+    margin-bottom: 30px;
+}
+.summary_item h1{
+    width: 40px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 22px;
+    background-color: #C8102E;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    border-radius:  30px 30px 0px 30px;
+
+}
+.summary_item h6{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.detail_section{
+    width: 70%;
+    margin-top: 5%;
+    background-color: rgb(235, 235, 235);
+    padding: 1% 0%;
+}
+.large_text{
+    margin: 5%;
+}
+.large_text h1{
+    font-size: 22px;
+    font-weight: 800;
+}
+.large_text h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.large_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px 0px 10px;
+}
+.large_text h4{
+    font-size: 14px;
+    color: gray;
+    margin:0% 3%;
+    font-weight: 400;
+}
+.middle_text{
+    margin: 3% 0%;
+}

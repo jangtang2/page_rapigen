@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapigen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/businessEthics.css">
+    <script src="https://kit.fontawesome.com/a5da5bf77e.js" crossorigin="anonymous"></script>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    min-width: 1175px;
+}
+</style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "lHfU2l5Pmy9wGOUNF",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_kcvyy0m', 'template_1h9p20u', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+    <style>
+        body{
+            font-family: "Noto Sans KR", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left_header">
+            <a href="index.html">
+                <img class="logo" src="img/logo-rapigen.png">
+            </a>
+        </div>
+        
+        <div class="middle_header">
+            <nav class="category">
+                <ul>
+                    <li><a href="company_intoduction.html">회사소개</a>
+                        <ul>
+                            <li><a href="company_intoduction.html">기업소개</a></li>
+                            <li><a href="CEOs_message.html">CEO 메세지</a></li>
+                            <li><a href="history_and_organization.html">연혁 & 조직도</a></li>
+                            <li><a href="#">CI & VISION</a></li>
+                            <li><a href="business_ethics.html">윤리경영</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">제품</a>
+                        <ul>
+                            <li class="prouct_type">신속진단</li>
+                            <li><a href="#">COVID-19</a></li>
+                            <li><a href="#">인체용 제품</a></li>
+                            <li><a href="#">동물용 제품</a></li>
+                            <li><a href="#">기타 제품</a></li>
+                            <li class="prouct_type">분자진단</li>
+                            <li><a href="#">Life Science Research</a></li>
+                            <li><a href="#">Clinical and Diagnostics</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">연구개발</a>
+                        <ul>
+                            <li><a href="#">연구소</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">미디어 센터</a>
+                        <ul>
+                            <li><a href="#">회사소식</a></li>
+                            <li><a href="#">보도자료</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">채용정보</a>
+                        <ul>
+                            <li><a href="#">인재상</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">채용공고</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">지원센터</a>
+                        <ul>
+                            <li><a href="#">E-카탈로그</a></li>
+                            <li><a href="#">인증현황</a></li>
+                            <li><a href="#">Contect Center</a></li>
+                        </ul>
+                    </li>
+                    <li class="for_customer"><a href="#">고객문의</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="right_header">
+            <div><a class="shop_link" href="https://rapigencare.com/" target="_blank">SHOP</a></div>
+            <div>
+                <div class="lang_choice" id="langSetBtn">
+                <div class="lang_placeholder" id="langPlaceholder">KOR</div>
+                <div id="langOption">
+                    <div class="lang_btn_list" > 
+                        <a class="lang_btn" href="index.html">KOR</a>
+                        <a class="lang_btn" href="#">ENG</a>
+                        <a class="lang_btn" href="#">ETC</a>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+    </header>
+    <script src="js/langBtn.js"></script>
+
+    <div class="title_banner"><div>윤리경영</div></div>
+    <div class="inner_body">
+        <div class="intro_section">
+            <div class="text_on_img">
+                <h1>윤리헌장</h1>
+                <div>
+                    ㈜래피젠은 “품질과 타협하지 않는다” 라는 창업정신으로 기술혁신부터 
+                    고객 만족까지 최고의 품질과 서비스를 지속적으로 창출하고<br>전 임직원이 함께 일치단결하여 
+                    고객제일주일 경영을 최우선 가치로 삼아 투명하고 공정한 기업경영으로 체외진단 산업계의 
+                    초일류기업으로 성장해 나아갈 것입니다.<br>‘래피젠의 윤리헌장‘을 다음과 같이 제정하여 임직원의 
+                    행동과 가치판단의 기준으로 삼고 실천에 최선을 다할 것을 다짐합니다.
+                </div>
+            </div>
+        </div>
+        <div class="summary_section">
+            <div class="summary_item">
+                <h1>01</h1>
+                <h6>우리는 고객 제일을 최우선 가치로 삼아 고객, 주주, 경쟁사, 협력업체 등 이해관계자와 함께 살아가는 동반자로서 공존 번영을 위해 성실히 협력한다.</h6>
+            </div>
+            <div class="summary_item">
+                <h1>02</h1>
+                <h6>우리는 경제활동을 비롯한 모든 사회활동에서 법규와 사회규범을 준수하고, 시장경제 질서를 존중하며 건전한 기업 시민으로서 권리와 의무를 성실히 수행 한다.</h6>
+            </div>
+            <div class="summary_item">
+                <h1>03</h1>
+                <h6>우리는 정직과 성실로서 맡은 바 임무에 최선을 다하며, 상대방을 존중하고 배려하는 인간관계와 노사협력을 바탕으로 조직문화를 창출한다.</h6>
+            </div>
+            <div class="summary_item">
+                <h1>04</h1>
+                <h6>전 임직원의 열정을 담아 인간 친화적인 생명과학 제품을 개발하여 제공함으로써 인류의 행복가치에 이바지 한다.</h6>
+            </div>
+        </div>
+        <div class="detail_section">
+            <div class="large_text">
+                <h1>제 1장 총칙</h1>
+                <div class="middle_text">
+                    <h2>제 1 조 (제정 목적)</h2>
+                    <div class="small_text">
+                        <h3>
+                            이 윤리 정책 및 행동 강령(이하 “강령”이라 한다)은 부패 방지 및 깨끗한 조직 풍토 조성을 위하여 부패 방지 및 
+                            국민권익위원회 설치와 운영에 관한 법률 제8조의 규정에 따라 래피젠(이하 “회사”이라 한다)의 임직원이 준수하여야 
+                            할 윤리적 가치판단 및 행동의 기준을 정함을 목적으로 한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 2 조 (적용 대상)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 윤리 정책 및 강령은 회사 모든 임직원(계약직, 일용직 및 파견근로자 포함)에 대하여 적용한다.
+                        </h3>
+                        <h3>
+                            ② 윤리 정책 및 강령이 적용되는 회사의 모든 임직원은 해당 국가의 법규를 준수하는 동시에 본 윤리 
+                            정책 및 실천 규범에 따라 업무를 수행해야 한다. 더 나아가 당사와 거래 관계에 있는 모든 이해관계자도 
+                            본 윤리 정책 및 실천 규범을 존중할 수 있도록 권장하여야 한다.
+                        </h3>
+                        <h3>
+                            ③ 윤리 정책 및 강령이 적용되는 회사는 본 윤리 정책 및 강령을 기반으로 하는 규정, 정책, 지침 등에 따라 업무를 수행해야 한다.
+                        </h3>
+                        <h3>
+                            ④ 윤리 정책 및 강령, 관련 규정, 정책, 지침 등이 현지 국가의 법규와 상충되는 경우에는 보다 엄격한 규정이 우선 적용되고, 
+                            현지 법규가 적용될 경우 해당 국가에서 요구하는 법규 및 산업 특성을 반영하여 본 윤리 정책 및 강령을 개정하여 사용할 수 있으며, 
+                            필요시 별도의 세부 정책을 수립할 수 있다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 3 조 (용어의 정의)</h2>
+                    <div class="small_text">
+                        <h3>
+                            금품 등 이란 다음 각 목의 어느 하나에 해당하는 것을 말한다.
+                        </h3>
+                        <h3>
+                            ① 금전, 유가증권, 부동산, 물품, 숙박권, 회원권, 입장권, 할인권, 초대권, 관람권, 부동산 등의 사용권 등 일체의 재산적 이익
+                        </h3>
+                        <h3>
+                            ② 음식물, 주류, 골프 등의 접대, 향응 또는 교통, 숙박 등의 편의 제공
+                        </h3>
+                        <h3>
+                            ③ 채무 면제, 취업 제공, 이권 부여 등 그 밖의 유형, 무형의 경제적 이익
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 2장 주주권 보호</h1>
+                <div class="middle_text">
+                    <h2>제 4 조 (주주의 권익 보호)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 주주의 권리를 보호하고 주주의 정당한 요구와 제안을 존중한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 경영정보를 성실히 공개하여 주주 및 투자자와 상호 신뢰관계를 구축하고 주주 이익의 극대화를 위해 노력한다.
+                        </h3>
+                        <h3>
+                            ③ 회사는 주주에게 주주총회의 일시, 장소 및 의안에 관한 충분한 정보를 충분한 기간 전에 제공한다.
+                        </h3>
+                        <h3>
+                            ④ 주주총회의 결의는 투명하고 공정하게 이루어지며, 회사는 의안에 관한 질의에 성실하게 답변한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 5 조 (평등한 대우)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 소액주주를 포함한 모든 주주를 공정하고 평등하게 대우한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 항상 전체 주주의 이익을 고려하여 경영 의사를 결정하되 소액주주의 이익이나 권리가 부당하게 침해되지 않도록 한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 6 조 (적극적 정보 제공)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 회계자료를 일반적으로 인정된 회계원칙에 따라 기록. 관리하여 재무 상태와 경영 성과를 투명하게 제공한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 정확한 경영정보를 관련 법규에 따라 적시에 제공하여 투자자 등 정보이용자가 합리적인 투자판단을 할 수 있도록 한다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 3장 고객 가치 실현</h1>
+                <div class="middle_text">
+                    <h2>제 7 조 (고객 존중)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 고객의 의견에 항상 귀를 기울이고 고객만족을 모든 판단 및 행동의 최우선 기준으로 삼는다.
+                        </h3>
+                        <h3>
+                            ② 회사는 성별, 나이, 장애, 언어 등을 이유로 제품 및 서비스의 사용을 부당하게 제약받는 고객이 없도록 필요한 조치를 취한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 8 조 (고객과의 약속 이행)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 고객과의 약속은 반드시 지키며 진실만을 말한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 전화응대, 방문상담, 배송, 고객 불만 등 판매 기본행위에 대한 문제 발생 시 적극적인 대처로 고객 불편을 최소화하도록 노력한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 9 조 (고객의 필요 가치 제공)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 고객의 발전이 곧 우리의 발전이라는 인식하에 고객이 필요로 하는 가치를 창출하기 위하여 노력한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 고객의 요구에 맞는 최고 품질의 제품과 서비스를 합리적인 가격으로 제공하며, 고객의 정당한 요구에는 신속 정확하게 응대한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 10 조 (고객의 이익 보호)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 고객으로부터 제품에 대한 정당한 교환 및 반품 요구가 있는 경우 신속히 응답하여 조치한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 고객과의 관계에서 비도덕적인 행위를 하지 않으며, 고객의 사전 동의 없이 고객 관련 정보를 타 용도로 사용하거나 제3자에게 제공하지 않는다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 4장 상거래 관습 준수</h1>
+                <div class="middle_text">
+                    <h2>제 11 조 (법규 및 상거래 관습 준수)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 국내 공정거래 관련 법규를 위반하는 행위를 하지 않는다.
+                        </h3>
+                        <h3>
+                            ② 회사는 해외 출장자 및 해외 주재원은 해당 지역의 법규 및 상거래 관습을 숙지하여 위반하지 않도록 노력한다.
+                        </h3>
+                        <h3>
+                            ③ 회사는 국제거래에 있어서 국제 상거래 뇌물방지협약 등 투자와 거래에 관한 국제적 협약과 제 규정을 준수하고 현지의 법규와 문화를 존중하여 현지의 경제 발전에 공헌한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 12 조 (자유경쟁 시장 질서 존중)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 경쟁사와 상호 존중을 기반으로 선의의 경쟁을 실천하며, 경쟁사의 이익을 침해하거나 약점을 부당하게 이용하지 않는다.
+                        </h3>
+                        <h3>
+                            ② 광고 등을 통해 경쟁사에 대한 비방이나 근거 없는 상호 비교를 하지 않는다.
+                        </h3>
+                        <h3>
+                            ③ 법규와 상거래 관습에 근거 정당한 방법으로 정보를 취득 활용하며, 비록 경쟁사 정보일지라도 부당하게 외부에 누설하지 않는다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 5장 공정거래</h1>
+                <div class="middle_text">
+                    <h2>제 13 조 (공정한 거래)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 모든 거래를 상호 대등한 위치에서 공정하게 이루어질 수 있도록 하며 조건 및 절차에 대해 상호 충분히 협의하고, 제반 거래 조건 변경 시 해당 협력회사와 상호 협의하여 결정한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 협력회사에 대한 평가 시 객관적이고 명확한 기준을 적용하여 공정성 확보에 주력한다.
+                        </h3>
+                        <h3>
+                            ③ 회사는 시장지배적 지위를 남용하거나, 거래상 지위를 남용하는 등 불공정한 거래 등을 통해 공정한 경쟁을 저해할 우려가 있는 행위를 하지 않는다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 14 조 (부당행위 금지)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 고정 협력회사와 거래 중단 시 명확한 사유, 일자 등을 통보하여 객관성 및 타당성을 확보한다.
+                        </h3>
+                        <h3>
+                            ② 부당한 방법이 동원된 일방적인 판단에 의한 거래 중단이 없도록 하여 공정성을 확보한다.
+                        </h3>
+                        <h3>
+                            ③ 회사는 업무와 관련 우월적 지위를 이용하여 협력회사로부터 금품 등 편의를 제공받지 아니한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 15 조 (상호 발전 추구)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 공정하고 합리적인 거래 관계를 통한 투명한 거래 풍토 조성을 위해 상호 노력한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 장기적으로 협력회사가 경쟁력을 갖추어 성장할 수 있도록 적극 지원하고, 이를 바탕으로 창출된 수익을 상호 공유한다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 6장 윤리정책</h1>
+                <div class="middle_text">
+                    <h2>제 16 조 (기본 윤리)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 임직원으로서 긍지와 자부심을 가지며, 항상 정직하고 성실한 자세를 견지한다.
+                        </h3>
+                        <h3>
+                            ② 동료 및 관련 부서 간 적극적인 협조와 원활한 의사소통으로 회사가 추구하는 목표와 가치를 효율적으로 달성하도록 한다.
+                        </h3>
+                        <h3>
+                            ③ 공사의 구분을 엄격히 하여 사적으로 회사의 물품이나 비용을 사용하지 않는다.
+                        </h3>
+                        <h3>
+                            ④ 경조사 발생 시 협력회사 등에 고지하여 상대방에게 부담을 주는 행위를 금한다.
+                        </h3>
+                        <h3>
+                            ⑤ 변화하는 상황을 인식하고 회사를 선도해 나갈 수 있는 능력을 배양하기 위하여 자기 계발에 힘쓴다.
+                        </h3>
+                        <h3>
+                            ⑥ 회사는 자사 및 협력사 근로자가 안전하고 건강하게 일할 수 있는 근무환경을 제공한다.
+                        </h3>
+                        <h3>
+                            ⑦ 고객 정보 및 사내 정보가 유출되지 않도록 노력하며, 전산관련 소프트웨어는 정품을 구입해서 사용한다.
+                        </h3>
+                        <h3>
+                            ⑧ 업무 수행 시 회사의 자원을 효율적으로 사용하며 낭비하지 아니한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 17 조 (공정한 업무 수행)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 모든 업무는 공정하고 정당한 방법으로 수행하며 법규, 사규 및 상거래 관습에 반하는 행위를 하지 않는다.
+                        </h3>
+                        <h3>
+                            ② 업무 관련 공정성을 저해할 수 있는 어떠한 형태의 경제적 이익도 이해관계자로부터 수취하지 않는다.
+                        </h3>
+                        <h3>
+                            ③ 업무 및 일상생활과 관련하여 사회 통념상 용인되지 않는 비윤리적 행위를 하지 않는다.
+                        </h3>
+                        <h3>
+                            ④ 상사는 부하직원에게 법규와 사규 및 상거래 관습에 맞지 않는 업무지시를 할 수 없으며, 
+                            해당 부하직원은 업무 수행을 거부할 수 있고 그러한 내용을 회사에 신고한 경우에도 불이익을 받지 않는다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 18 조 (임직원 간 금전거래, 청탁, 선물 제공 금지)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 직원 상호 간 금전대차, 연대보증 및 상호 보증은 원칙적으로 금지한다.
+                        </h3>
+                        <h3>
+                            ② 직원 상호 간 업무상 부당한 청탁을 하거나 청탁을 대가로 어떠한 형태의 경제적 이익도 수혜하지 않는다.
+                        </h3>
+                        <h3>
+                            ③ 직원 상호 간 선물 제공 행위는 원칙적으로 금지한다. 단, 다음의 경우는 예외로 한다.
+                        </h3>
+                        <h4>
+                            가&#41; 상사가 부하직원에게 자발적으로 제공하는 선물
+                        </h4>
+                        <h4>
+                            나&#41; 생일이나 기념일에 부서원 간 협의를 통해 제공하는 부담 없는 선물
+                        </h4>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 19 조 (직장 내 성희롱 방지)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 고의적이거나 불필요한 신체 접촉을 통한 불쾌감을 주지 않는다.
+                        </h3>
+                        <h3>
+                            ② 직장 동료의 신체에 대한 성적인 비유나 평가를 하지 않는다.
+                        </h3>
+                        <h3>
+                            ③ 상대에게 성적인 수치심을 유발하거나 고정된 성 역할을 강조하는 언행을 하지 않는다.
+                        </h3>
+                        <h3>
+                            ④ 회식 때 술이나 춤을 강요하지 않으며 음담패설을 삼간다.
+                        </h3>
+                        <h3>
+                            ⑤ 사내에서 인터넷 음란사이트 등 음란물을 보지 않는다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 20 조 (상호 존중)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 직장 생활에 필요한 기본적인 예의를 지킨다.
+                        </h3>
+                        <h3>
+                            ② 불손한 언행이나 상대방을 비하하는 발언을 하지 않는다.
+                        </h3>
+                        <h3>
+                            ③ 상대방에게 괴로움이나 혐오감을 주는 행위를 하지 않는다.
+                        </h3>
+                        <h3>
+                            ④ 학교, 성별, 종교, 혈연, 출신 지역, 장애, 국적, 인종 등에 따른 파벌 조성이나 차별 대우를 하지 않는다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 7장 인재 육성 및 보상</h1>
+                <div class="middle_text">
+                    <h2>제 21 조 (임직원 존중 및 인재 육성)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 임직원이 주인의식을 바탕으로 긍지와 보람을 갖고 업무를 수행할 수 있는 제도를 확립한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 모든 임직원에게 업무에 필요한 교육의 기회를 제공하며, 임직원은 습득한 유.무형의 지식을 회사의 발전을 위해 공유한다.
+                        </h3>
+                        <h3>
+                            ③ 상사는 인재 육성의 관점에서 부하의 적성과 소질을 고려하여 필요한 모든 충고와 지도를 한다.
+                        </h3>
+                        <h3>
+                            ④ 개인의 사생활을 존중하고, 상호 신뢰와 이해를 바탕으로 한 기업문화 구축에 노력한다.
+                        </h3>
+                        <h3>
+                            ⑤ 임직원이 창의적인 업무를 수행할 수 있는 여건을 조성하며, 애로사항에 대해 주기적으로 파악하고 해결하기 위하여 노력한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 22 조 (공정한 대우)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 임직원에게 적성과 소질을 고려하여 평등한 업무 기회를 부여한다.
+                        </h3>
+                        <h3>
+                            ② 임직원의 능력과 업적에 따라 객관적인 기준을 적용하여 평가 보상한다.
+                        </h3>
+                        <h3>
+                            ③ 임직원의 능력을 향상시킬 수 있는 기회를 평등하게 제공하며, 학교, 성별, 종교, 혈연, 출신 지역, 장애, 국적, 인종 등에 따른 차등을 두지 않는다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 8장 기업 활동</h1>
+                <div class="middle_text">
+                    <h2>제 23 조 (건전한 기업 활동)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 건전한 기업 활동을 저해하는 모든 행위를 배격한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 국민경제에 해를 끼치는 행위 또는 국민 정서에 위화감을 조성하는 행위를 하지 않는다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 24 조 (고용 및 조세, 복지사업을 통한 국가 발전 및 지역사회 기여)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 고용 창출 및 조세의 성실한 납부로 국가 발전에 기여하고, 교육, 문화 및 복지사업을 통해 기업 시민으로 서의 책임을 다한다.
+                        </h3>
+                        <h3>
+                            ② 임직원의 건전한 사회봉사활동 참여를 권장 및 지원한다.
+                        </h3>
+                        <h3>
+                            ③ 사회 각 계층과 지역주민의 정당한 요구를 수용하고 해결하고자 노력한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 25 조 (환경보호 및 환경친화적 제품개발)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 환경오염 물질의 배출을 최소화하고, 사고 발생 시 지역사회의 피해 방지를 위해 최우선 처리하도록 노력한다.
+                        </h3>
+                        <h3>
+                            ② 환경보호와 관련한 제반 법규를 준수하고, 환경친화적인 제품과 서비스 개발에 노력한다.
+                        </h3>
+                        <h3>
+                            ③ 지역사회 환경보전 활동에 적극적으로 참여한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 26 조 (사업장 내 정치활동 및 불법적 지원행위 금지)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 사업장 내에서는 어떠한 정치활동도 허용하지 않는다.
+                        </h3>
+                        <h3>
+                            ② 회사는 어떠한 선거의 후보자, 정당 등에 불법적인 지원행위를 하지 않는다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 27 조 (임직원 윤리강령 준수)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 임원과 관리자는 소속 직원이 윤리강령을 준수하도록 관리할 책임이 있다.
+                        </h3>
+                        <h3>
+                            ② 윤리정책 및 행동 강령 위반행위 발생 시 철저한 원인 규명과 교육을 통해 재발을 방지한다.
+                        </h3>
+                        <h3>
+                            ③ 모든 임직원은 윤리강령을 성실히 준수하여야 하며, 이를 위반할 경우 징계조치를 받는 등 해당 행위에 대한 책임을 진다.
+                        </h3>
+                        <h3>
+                            ④ 윤리강령을 위반하는 행위를 강압 받거나 인지한 경우에는 부서장 또는 해당 임원이나 인사부서 또는 이메일로 신고하고, 의구심이 생기는 행위는 사전에 상사나 임원과 협의 후 조치한다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="large_text">
+                <h1>제 9장 보칙</h1>
+                <div class="middle_text">
+                    <h2>제 28 조 (인권보호)</h2>
+                    <div class="small_text">
+                        <h3>
+                            회사는 국제적으로 선언된 인권을 보호하고 확보하며, 사업활동에서 발생할 수 있는 인권침해 위험을 파악하여 사회가 보편적으로 
+                            추구하는 인권이 보호받을 수 있도록 적극적인 조치를 취한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 29 조 (아동노동 및 강제노동)</h2>
+                    <div class="small_text">
+                        <h3>
+                            회사는 헌법에서 정한 노동3권(자주적인 단결권, 단체교섭권, 단체행동권)과 국제노동기구(ILO)에서 규정한 협약 제29호(강제 근로에 관한 협약), 
+                            제105호(강제 근로의 폐지에 관한 협약), 제182호(가혹한 형태의 아동노동 철폐에 관한 협약)과 기본 권리를 존중하고 보장한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 30 조 (교육)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 임직원에 대하여 이 강령의 준수를 위한 교육계획을 수립, 시행하여야 하며 그 결과를 기록, 관리하여야 한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 제1항에 따른 교육을 매년 1회 이상 실시하여야 하며, 신입사원에 대해서는 신규 임용 시 교육을 하여야 한다.
+                        </h3>
+                        <h3>
+                            ③ 제1항에 따라 실시하는 교육은 본 행동 강령에 있는 모든 항목을 포함하여야 한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 31 조 (경영검토)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 본 윤리 정책 및 강령을 소속 임직원 및 업무상 관련된 이해관계자들이 바르게 이행할 수 있도록 적극적으로 지원하고 관리해야 한다.
+                        </h3>
+                        <h3>
+                            ② 회사는 윤리적 리스크 예방 및 실사를 위한 적절한 조직 및 보고체계를 구성하고, 책임과 역할을 명확히 해야 한다.
+                        </h3>
+                        <h3>
+                            ③ 회사는 윤리적 리스크를 상시 모니터링하고, 실사할 수 있는 체계를 구축해야 한다.
+                        </h3>
+                        <h3>
+                            ④ 회사는 내, 외부 접근이 가능한 24시간 신고체계를 구축하고, 정기 또는 비 정기 감사 등의 적절한 내부통제 제도를 도입해야 한다.
+                        </h3>
+                        <h3>
+                            ⑤ 회사는 내부고발자가 불합리한 대우나 차별, 보복을 당하지 않도록 필요한 조치를 이행해야 한다.
+                        </h3>
+                        <h3>
+                            ⑥ 회사는 위반사항 발생 시 사규에 따라 필요한 조치를 즉각 이행해야 한다.
+                        </h3>
+                        <h3>
+                            ⑦ 회사는 위반사항 재발 방지를 위해 적절한 방식을 선택해 해당 정보를 공개해야 한다.
+                        </h3>
+                    </div>
+                </div>
+                <div class="middle_text">
+                    <h2>제 32 조 (감사)</h2>
+                    <div class="small_text">
+                        <h3>
+                            ① 회사는 내부감사를 위하여 감사위원회를 설치하고 아래 호에 적격한 자를 감사위원으로 선임한다.
+                        </h3>
+                        <h4>가&#41; 회사와 중대한 관계가 없고, 임원진과 주주로부터 독립적인 의사결정을 할 수 있는 자</h4>
+                        <h4>나&#41; 감사업무에 관한 전문적 식견을 가진 자</h4>
+                        <h3>
+                            ② 회사는 외부감사를 위하여 임원진과 주주로부터 독립적인 의사결정을 할 수 있는 외부감사인을 선임한다.
+                        </h3>
+                        <h3>
+                            ③ 회사는 감사위원회와 외부감사인과 주기적으로 소통하고 문제점을 개선한다.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_logo"><img src="img/logo-rapigen.png"></div>
+        <div class="footer_data">
+            <div class="footer_data_section">
+                <div class="footer_data_icon">
+                    <a target="_blank" href="https://www.linkedin.com/company/rapigen-inc"><i class="fab fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC3V23x7mrtWr3tfTWPMRJIg"><i class="fab fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer_data_text">
+                    <h6>[본사] : 경기도 수원시 권선구 산업로 155번길 161 (우: 16648)</h6>
+                    <h6>[미국지사] : 155 Gibbs Street, Suite 434/435, Rockville, MD, 20850 U.S.A.</h6>
+                    <h6>TEL : 031-427-4677  |   FAX : 031-427-4678</h6>
+                    <h6 class="copyright">Copyright ⓒ 2016 Rapigen Inc. All rights reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
