@@ -13,7 +13,7 @@
     color: white;
     font-weight: 600;
     font-size: 36px;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .inner_body{
     width: 100%;
@@ -31,7 +31,12 @@
     font-weight: 400;
     margin-bottom: 50px;
 }
+.text_section >span{
+    font-size: 18px;
+    line-height: 35px;
+}
 .youtube_section{
     width: 70%;
+    height: 60vh;
     margin-bottom: 100px;
 }
