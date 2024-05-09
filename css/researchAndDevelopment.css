@@ -54,6 +54,7 @@
     border-bottom: #C8102E solid 3px;
     margin-bottom: 10%;
     display: flex;
+    animation: fade-in 1s;
 }
 .text_section{
     width: 67%;
@@ -95,3 +96,12 @@
 #screen3{
     display: none;
 }
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
