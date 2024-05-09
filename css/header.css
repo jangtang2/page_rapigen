@@ -162,6 +162,9 @@ ul li{
     color: white;
     padding: 5px 10px;
 }
+.lang_btn:hover{
+    background-color: rgb(128, 128, 128);
+}
 .shop_link{
     padding: 5px 10px;
 }

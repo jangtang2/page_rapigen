@@ -137,7 +137,7 @@ body{
 
     <div class="title_banner"><div>Contact Center</div></div>
     <div class="ment_text">The person in charge of each field will check and respond quickly.</div>
-    <form class="contact_form">
+    <form class="contact_form" id="contact-form">
         <div class="manual">
             <div>※ Please enter the item.</div>
             <div>* Essential</div>
@@ -155,22 +155,12 @@ body{
             <label class="checkbox_label">
                 <input type="checkbox" class="option-input checkbox" required />I agree with the personal information processing policy and register.
             </label>
-            <article class="submit_btn"><input type="submit" value="Send"></article>
+            <article class="submit_btn" id="submit_btn"><input type="submit" value="Send"></article>
             
         </div>
     </form>
-
-    <!--form id="contact-form">
-        <input type="hidden" name="contact_number" value="697483">
-        <input type="hidden" name="to_name" value="Rapigen">
-        <label>Name</label>
-        <input type="text" name="from_name">
-        <label>Email</label>
-        <input type="email" name="from_email">
-        <label>Message</label>
-        <textarea name="message"></textarea>
-        <input type="submit" value="Send">
-    </form-->
+    <script src="js/emailSuccess.js"></script>
+    
     <footer>
         <div class="footer_logo"><img src="img/rapigen_CI_gray.svg"></div>
         <div class="footer_data">
