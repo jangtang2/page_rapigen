@@ -23,16 +23,25 @@
     width: 70%;
     margin-bottom: 100px;
 }
-.text_section >h1{
+.text_section h1{
     color:  #C8102E;
     margin-bottom: 10px;
+}
+.text_section #E-h1{
+    color:  #C8102E;
+    margin-bottom: 50px;
+    font-size: 26px;
 }
 .text_section > h2{
     font-weight: 400;
     margin-bottom: 50px;
 }
-.text_section >span{
+.text_section span{
     font-size: 18px;
+    line-height: 35px;
+}
+.text_section #E-span{
+    font-size: 16px;
     line-height: 35px;
 }
 .youtube_section{

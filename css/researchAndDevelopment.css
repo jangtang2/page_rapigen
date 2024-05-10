@@ -96,6 +96,9 @@
 #screen3{
     display: none;
 }
+.eh2{
+    font-size: 18px;
+}
 
 @-webkit-keyframes fade-in {
     0% {

@@ -65,6 +65,9 @@
     line-height: 40px;
     padding-top: 20px;
 }
+.history_item > .e_h6{
+    font-size: 16px;
+}
 .organization_section{
     display: flex;
     margin-bottom: 10%;
