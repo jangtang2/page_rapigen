@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapigen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/emailFormUSA.css">
+    <script src="https://kit.fontawesome.com/a5da5bf77e.js" crossorigin="anonymous"></script>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    min-width: 1175px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+</style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "lHfU2l5Pmy9wGOUNF",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_kcvyy0m', 'template_1h9p20u', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="left_header">
+            <a href="E_index.html">
+                <img class="logo" src="../img/rapigen_CI_original.svg">
+            </a>
+        </div>
+        
+        <div class="middle_header">
+            <nav class="category">
+                <ul>
+                    <li><a href="E_company_intoduction.html">COMPANY</a>
+                        <ul>
+                            <li><a href="E_company_intoduction.html">기업소개</a></li>
+                            <li><a href="CEOs_message.html">CEO Greetings</a></li>
+                            <li><a href="history_and_organization.html">History & Organization</a></li>
+                            <li><a href="CI_and_vision.html">CI & VISION</a></li>
+                            <li><a href="business_ethics.html">Ethical Management</a></li>
+                            <li><a href="location.html">Locations</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">제품</a>
+                        <ul>
+                            <li class="prouct_type">RAPID DIAGNOSIS</li>
+                            <li><a href="#">COVID-19</a></li>
+                            <li><a href="#">Human Products</a></li>
+                            <li><a href="#">Veterinary Products</a></li>
+                            <li><a href="#">Others</a></li>
+                            <li class="prouct_type">MOLECULAR DIAGNOSIS</li>
+                            <li><a href="#">Life Science Research</a></li>
+                            <li><a href="#">Clinical and Diagnostics</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="research_and_development.html">R&D</a>
+                        <ul>
+                            <li><a href="research_and_development.html">R&D Center</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">MEDIA</a>
+                        <ul>
+                            <li><a href="#">Company News</a></li>
+                            <li><a href="#">Press Release</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="employment_info.html">RECRUITMENT</a>
+                        <ul>
+                            <li><a href="ideal_talent.html">Core Competency</a></li>
+                        </ul>
+                    </li>
+                    <div class="just_bar">|</div>
+                    <li><a href="#">SUPPORT</a>
+                        <ul>
+                            <li><a href="#">E-brochure</a></li>
+                            <li><a href="#">Certifications</a></li>
+                            <li><a href="contact_center.html">Contact us</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="right_header">
+            <div><a class="shop_link" href="https://rapigencare.com/" target="_blank">SHOP</a></div>
+            <div>
+                <div class="lang_choice" id="langSetBtn">
+                <div class="lang_placeholder" id="langPlaceholder">ENG</div>
+                <div id="langOption">
+                    <div class="lang_btn_list" > 
+                        <a class="lang_btn" href="E_index.html">ENG</a>
+                        <a class="lang_btn" href="../index.html">KOR</a>
+                        <a class="lang_btn" href="#">ETC</a>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+    </header>
+    <script src="../js/langBtn.js"></script>
+
+    <div class="title_banner"><div>Contact Center</div></div>
+    <div class="ment_text">The person in charge of each field will check and respond quickly.</div>
+    <form class="contact_form" id="contact-form">
+        <div class="manual">
+            <div>※ Please enter the item.</div>
+            <div>* Essential</div>
+        </div>
+        <input type="hidden" name="contact_number" value="697483">
+        <div class="input_section">
+            <div><label>Title</label><input type="text" name="title" placeholder="Title"></div>
+            <div><label>Name<h6>*</h6></label><input type="text" name="from_name" placeholder="Name" required></div>
+            <div><label>E-mail<h6>*</h6></label><input type="email" name="from_email" placeholder="E-mail" required></div>
+            <div><label>Tel</label><input type="tel" name="tel" placeholder="Tel"></div>
+            <div><label>Country</label><input type="text" name="country" placeholder="Country"></div>
+            <div><label>Company</label><input type="text" name="company" placeholder="Company"></div>
+            <div><label>Position</label><input type="text" name="position" placeholder="Position"></div>
+            <div><label>Message<h6>*</h6></label><textarea name="message" placeholder="The person in charge of each field will check and respond quickly." required></textarea></div>
+            <label class="checkbox_label">
+                <input type="checkbox" class="option-input checkbox" required />I agree with the personal information processing policy and register.
+            </label>
+            <article class="submit_btn" id="submit_btn"><input type="submit" value="Send"></article>
+            
+        </div>
+    </form>
+    <script src="../js/emailSuccess.js"></script>
+
+    <footer>
+        <div class="footer_logo"><img src="../img/rapigen_CI_gray.svg"></div>
+        <div class="footer_data">
+            <div class="footer_data_section">
+                <div class="footer_data_icon">
+                    <a target="_blank" href="https://www.linkedin.com/company/rapigen-inc"><i class="fab fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC3V23x7mrtWr3tfTWPMRJIg"><i class="fab fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer_data_text">
+                    <h6>[본사] : 경기도 수원시 권선구 산업로 155번길 161 (우: 16648)</h6>
+                    <h6>[미국지사] : 155 Gibbs Street, Suite 434/435, Rockville, MD, 20850 U.S.A.</h6>
+                    <h6>TEL : 031-427-4677  |   FAX : 031-427-4678</h6>
+                    <h6 class="copyright">Copyright ⓒ 2016 Rapigen Inc. All rights reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
