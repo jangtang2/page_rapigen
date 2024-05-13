@@ -1,0 +1,115 @@
+.title_banner{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1615631570866-4ff59a69093a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.title_banner >div{
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 15%;
+}
+.inner_body{
+    width: 100%;
+    padding: 0px 15%;
+}
+.title_section{
+    width: 70%;
+    margin-bottom: 5%;
+}
+.title_section h1{
+    color: #C8102E;
+}
+.title_section h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.prod_cate_section{
+    width: 70%;
+}
+.sub_title{
+    margin-bottom: 10%;
+}
+.red_bar{
+    background-color: #C8102E;
+    width: 110px;
+    height: 10px;
+}
+.sub_title_text{
+    width: 110px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+}
+.cate_group{
+    display: flex;
+    justify-content: space-between;
+}
+.prod_cate_section a{
+    width: 48%;
+}
+.each_cate{
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+}
+.each_cate:hover .img_section{
+    transition: all 0.5s;
+    filter: brightness(0.7);
+}
+.each_cate:hover h3{
+    color: #C8102E;
+    transition: all 0.5s;
+}
+.each_cate:hover .hover_text{
+    color: white;
+    transition: all 0.5s;
+}
+.img_section{
+    width: 100%;
+    height: 40vh;
+    background-color: azure;
+    background-size: cover;
+    background-position: center;
+}
+#prod_human{
+    background-image: url("https://images.unsplash.com/photo-1526938084645-692eb352bf7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwlRUIlOEIlQUMlRUIlQTYlQUMlRUElQjglQjB8ZW58MHwwfDB8fHwy");
+}
+#prod_animal{
+    background-image: url("https://images.unsplash.com/photo-1510337550647-e84f83e341ca?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#prod_life{
+    background-image: url("https://images.unsplash.com/photo-1643780668909-580822430155?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#prod_clinical{
+    background-image: url("https://images.unsplash.com/photo-1675044794036-4f20856a5d05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.hover_text{
+    width: 100%;
+    height: 40vh;
+    color: rgba(255, 255, 255, 0);
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.each_cate h3{
+    font-weight: 800;
+    font-size: 24px;
+    margin: 2% 1%;
+}
+.each_cate h4{
+    font-size: 18px;
+    margin: 2% 1%;
+}
