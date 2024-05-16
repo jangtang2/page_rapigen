@@ -6,52 +6,75 @@ a{
 }
 
 header{
+    font-family: ‘SUIT’, sans-serif;
     background-color: white;
     display: flex;
     justify-content: left;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .left_header{
     width: 15%;
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
 }
 .middle_header{
-    width: 75%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
 .right_header{
-    width: 10%;
+    width: 15%;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     padding-right: 25px;
 }
 .left_header >a{
-    display: flex;
-    justify-content: center;
-}
-.left_header> a>img{
-    width: 60%;
-    height: max-content;
-}
-.just_bar{
+    height: 100%;
+    margin-left: 5%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: rgba(0, 0, 0, 0.3);
 }
-.right_header>div{
+.left_header> a>img{
+    width: 70%;
+    height: 100%;
+}
+.shop_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+.shop_link{
+    border: #C8102E 2px solid;
+    border-radius: 30px;
+    display: flex;
+}
+.shop_link img{
+    height: 20px;
+    margin-right: 10px;
+}
+.shop_link h3{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lang_div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-weight: 600;
     padding: 5px 10px;
+    margin-right: 5%;
 }
 .category > ul {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 
 }
 
@@ -97,13 +120,6 @@ ul li{
     text-align: center;
     background-color: gray;
     color: white;
-}
-
-.for_customer{
-    background-color: beige;
-    border-radius: 30px;
-    margin-left: 20px;
-    font-size: 13px;
 }
 
 .global_icon{
@@ -166,9 +182,5 @@ ul li{
     background-color: rgb(128, 128, 128);
 }
 .shop_link{
-    padding: 5px 10px;
-}
-.shop_link:hover{
-  color: white;
-  background-color: #C8102E;
+    padding: 10px 15px;
 }
