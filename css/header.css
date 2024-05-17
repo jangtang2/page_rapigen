@@ -7,11 +7,25 @@ a{
 
 header{
     font-family: ‘SUIT’, sans-serif;
-    background-color: white;
+    background-color: rgba(129, 57, 57, 0);
+}
+.main_header{
     display: flex;
     justify-content: left;
+    background-color: white;
 }
 
+.sub_header{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.651);
+    z-index: 2;
+    position: absolute;
+    justify-content: center;
+    display: none;
+}
+.sub_header_section .active{
+    display: flex;
+}
 .left_header{
     width: 15%;
     display: flex;
@@ -53,7 +67,7 @@ header{
     border: #C8102E 2px solid;
     border-radius: 30px;
     display: flex;
-    width: 110px;
+    width: 120px;
 }
 .shop_link img{
     height: 20px;
@@ -92,11 +106,11 @@ ul li{
 
 .category >ul > li{
     height: 100%;
-    width: 80px;
+    width: 85px;
     text-align:center;
     font-weight: 600;
     margin: 0px 10px;
-    
+    font-size: 16px;
 }
 .category >ul > li>a{
     height: 80%;
@@ -107,13 +121,42 @@ ul li{
     position: relative;
     
 }
+.sub_cate_list {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.sub_cate_list ul{
+    display: flex;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.sub_cate_list ul li{
+    margin-right: 20px;
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+    width: 85px;
+    text-align: center;
+    margin: 0px 10px;
+}
+.sub_cate_list ul li a{
+    text-align: left;
+    margin-bottom: 5px;
+}
+#long_cate{
+    width: 180px;
+}
+.sub_cate_list ul li a:hover{
+    font-weight: 800;
+    color: black;
+}
 .category >ul > li>ul{
     display: none;
     position: absolute;
     background-color: white;
     z-index: 1;
     border-top: 5px solid #C8102E;
-    margin-top: 10px;
+    margin-top: 9px;
     text-align: left;
 }
 
@@ -133,16 +176,24 @@ ul li{
     height: 3px;
     background-color:white;
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
     z-index: 1;
 }
 
 .prouct_type{
+    height: 100%;
     text-align: center;
-    background-color: gray;
-    color: white;
+    color: black;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
+.prod_sub_cate{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 .global_icon{
     display: flex;
     flex-direction: column;
@@ -166,10 +217,10 @@ ul li{
     }
 }
   
-.category > ul> li:hover>a{
+.category > ul> .active >a{
     color: #C8102E;
 }
-.category > ul> li:hover>a .under_bar{
+.category > ul> .active>a .under_bar{
     background-color: #C8102E;
 }
 
@@ -205,4 +256,9 @@ ul li{
 }
 .shop_link{
     padding: 10px 15px;
+}
+
+.under_cate{
+    width: 100%;
+
 }
