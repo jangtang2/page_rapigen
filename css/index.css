@@ -44,7 +44,7 @@
 .slide:nth-of-type(2) .white_space{
     width:100%;
     height: 100%;
-    padding: 10px 5% ;
+    padding: 0 15% ;
 }
 
 .slide .silk{
@@ -54,21 +54,39 @@
     padding: 10px 5% ;
 }
 .slide_title{
-    width: 90%;
-    text-align: center;
-    font-size: 42px;
+    width: 70%;
+    text-align: left;
+    font-size: 22px;
     margin-top: 3%;
+    font-weight: 800;
+    color: #C8102E;
+}
+.slide_title span{
+    font-weight: 200;
+}
+.slide_sub_title{
+    font-size: 32px;
+    width: 70%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 3%;
+    line-height: 50px;
+}
+.slide_sub_title span:nth-child(1){
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+}
+.slide_sub_title span:nth-child(2){
     font-weight: 800;
     color: black;
 }
-.slide_sub_title{
-    font-size: 18px;
-    width: 90%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 3%;
-    font-weight: 500;
+.slide_sub_title span:nth-child(3){
+    font-weight: 400;
     color: black;
+}
+
+.slide_sub_title span p{
+    font-weight: 800;
 }
 
 .white_text{
@@ -172,17 +190,17 @@
 
 .card_set{
     margin-top: 20px;
-    width: 90%;
+    width: 70%;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
 }
 .card_set:nth-of-type(1){
     margin-bottom: 10px;
 }
 .prod_card{
-    width: 16vw;
+    width: 23%;
     height: 50vh;
-    margin: 10px 30px;
+    margin: 0px 0px;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -195,10 +213,28 @@
     color:white;
     font-size: 16px;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.3);
+}
+.prod_title div:nth-of-type(1){
+    height: 77%;
+    width: 100%;
+   
+}
+.prod_title div:nth-of-type(2){
+    text-align: left;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.prod_title div:nth-of-type(2) span:nth-of-type(1){
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.prod_title div:nth-of-type(2) span:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 300;
 }
 .prod_title:hover{
     background-color: rgba(0, 0, 0, 0.8);
