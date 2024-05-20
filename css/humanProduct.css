@@ -76,6 +76,7 @@
 .sub_cate_section{
     width: 70%;
     margin-top: 1%;
+    margin-bottom: 5%;
 }
 .sub_cate_row{
     display: flex;
@@ -98,49 +99,6 @@
     margin-right: 0%;
 }
 
-
-
-
-
-
-
-
-.category_section{
-    width: 70%;
-    border-style: solid none;
-    border-width: 2px;
-    border-color: #C8102E;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 2vh;
-    margin-bottom: 5%;
-}
-.active .bar_line{
-    height: 10px;
-    width: 40%;
-    margin:0 auto;
-    background-color: #C8102E;
-}
-.cate_line{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2vh;
-}
-.cate_name{
-    width: 10vw;
-    align-content: center;
-}
-.cate_name>h6{
-    width:100%;
-    text-align: center;
-    font-size: 21px;
-    font-weight: 400;
-}
-.active h6{
-    font-weight: 800;
-}
 #prod_human{
     background-image: url("https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
