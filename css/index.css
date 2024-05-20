@@ -254,16 +254,16 @@
     background-image: url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 #prod_human{
-    background-image: url("https://images.unsplash.com/photo-1526938084645-692eb352bf7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwlRUIlOEIlQUMlRUIlQTYlQUMlRUElQjglQjB8ZW58MHwwfDB8fHwy");
+    background-image: url("../img/human_prod.jpeg");
 }
 #prod_animal{
-    background-image: url("https://images.unsplash.com/photo-1510337550647-e84f83e341ca?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("../img/animal_prod.jpeg");
 }
 #prod_etc{
     background-image: url("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 #prod_life{
-    background-image: url("https://images.unsplash.com/photo-1643780668909-580822430155?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("../img/life_prod.jpeg");
 }
 #prod_clinical{
     background-image: url("https://images.unsplash.com/photo-1675044794036-4f20856a5d05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
