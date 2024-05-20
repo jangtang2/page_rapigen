@@ -115,22 +115,6 @@ function no6(){
     main6.classList.add("active");
     main7.classList.remove("active");
 }
-function no7(){
-    sub1.classList.remove("active");
-    sub2.classList.remove("active");
-    sub3.classList.remove("active");
-    sub4.classList.remove("active");
-    sub5.classList.remove("active");
-    sub6.classList.remove("active");
-
-    main1.classList.remove("active");
-    main2.classList.remove("active");
-    main3.classList.remove("active");
-    main4.classList.remove("active");
-    main5.classList.remove("active");
-    main6.classList.remove("active");
-    main7.classList.add("active");
-}
 function noActive(){
     sub1.classList.remove("active");
     sub2.classList.remove("active");
@@ -147,9 +131,7 @@ function noActive(){
     main6.classList.remove("active");
     main7.classList.remove("active");
 }
-function leave7(){
-    main7.classList.remove("active");
-}
+
 
 main1.addEventListener('mouseenter', no1);
 main2.addEventListener('mouseenter', no2);
@@ -157,8 +139,6 @@ main3.addEventListener('mouseenter', no3);
 main4.addEventListener('mouseenter', no4);
 main5.addEventListener('mouseenter', no5);
 main6.addEventListener('mouseenter', no6);
-main7.addEventListener('mouseenter', no7);
-main7.addEventListener('mouseleave', leave7);
 header.addEventListener('mouseleave', noActive);
 l_header.addEventListener('mouseenter', noActive);
 r_header.addEventListener('mouseenter', noActive);
