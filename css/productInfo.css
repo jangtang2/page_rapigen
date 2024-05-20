@@ -96,6 +96,9 @@ table{
     border-width: 2px;
     margin-bottom: 10%;
 }
+table:last-of-type{
+    margin-bottom: 5%;
+}
 tr{
     width: 100%;
 }
@@ -151,4 +154,40 @@ td{
 }
 .clinical_section{
     width: 70%;
+}
+.btn_section{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5%;
+}
+.btn{
+    display: flex;
+    margin-left: 40px;
+}
+.btn_name{
+    font-size: 18px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #646363;
+}
+.big_btn_section{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.big_btn_section a{
+    padding: 10px 60px;
+    background-color: #C8102E;
+    color: white;
+    font-size: 22px;
+    border-radius: 100px;
+    margin-bottom: 10%;
 }
