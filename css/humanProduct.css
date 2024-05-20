@@ -75,9 +75,11 @@
 }
 .sub_cate_section{
     width: 70%;
+    margin-top: 1%;
 }
 .sub_cate_row{
     display: flex;
+    margin-top: 1%;
 }
 .sub_cate_btn{
     width: 15%;
@@ -86,6 +88,11 @@
     padding:  5px 0;
     border-radius: 100px;
     margin-right: 2%;
+}
+.sub_cate_btn.active{
+    background-color: #C8102E;
+    border: none;
+    color: white;
 }
 .sub_cate_row .sub_cate_btn:last-of-type{
     margin-right: 0%;
