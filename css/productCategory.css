@@ -23,93 +23,114 @@
     width: 70%;
     margin-bottom: 5%;
 }
-.title_section h1{
-    color: #C8102E;
+.title_section h1:nth-of-type(1){
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+.title_section h1:nth-of-type(2){
+    color: black;
 }
 .title_section h6{
     font-size: 18px;
     font-weight: 600;
     margin: 2% 0%;
 }
-.prod_cate_section{
+.cate_section{
     width: 70%;
 }
-.sub_title{
-    margin-bottom: 10%;
-}
-.red_bar{
-    background-color: #C8102E;
-    width: 110px;
-    height: 10px;
-}
-.sub_title_text{
-    width: 110px;
-    text-align: center;
-    font-weight: 800;
-    font-size: 28px;
-}
-.cate_group{
+.big_cate{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.prod_cate_section a{
-    width: 48%;
+.cate_text_zone{
+    width: 40%;
+    border-top:  solid 2px #C8102E;
 }
-.each_cate{
-    width: 100%;
-    margin-top: 2%;
+.cate_text_zone h1{
+    margin-top: 5px;
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 5%;
+}
+.cate_section span{
+    font-size: 20px;
+    line-height: 35px;
+}
+.cate_section .bold_text{
+    font-weight: 700;
+}
+.cate_section .red_text{
+    color: #C8102E;
+}
+.card_zone{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 48%;
+    height: 450px;
     position: relative;
 }
-.each_cate:hover .img_section{
-    transition: all 0.5s;
-    filter: brightness(0.7);
+.white_card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
 }
-.each_cate:hover h3{
-    color: #C8102E;
-    transition: all 0.5s;
+.white_card div{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
-.each_cate:hover .hover_text{
+.black_card{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.black_card div{
+    text-align: center;
+}
+.black_card div:nth-of-type(1){
+    height: 90%;
+}
+.black_card div:nth-of-type(2){
+    width: max-content;
+    padding: 10px 25px;
+    margin: 0 auto;
+}
+.card:hover .black_card{
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     transition: all 0.5s;
 }
-.img_section{
-    width: 100%;
-    height: 40vh;
-    background-color: azure;
-    background-size: cover;
-    background-position: center;
+.card:hover .black_card div:nth-of-type(1){
+    height: 70%;
+    transition: all 0.5s;
+}
+.card:hover .black_card div:nth-of-type(2){
+    border: solid 1px white;
+    transition: all 0.5s;
 }
 #prod_human{
-    background-image: url("https://images.unsplash.com/photo-1526938084645-692eb352bf7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwlRUIlOEIlQUMlRUIlQTYlQUMlRUElQjglQjB8ZW58MHwwfDB8fHwy");
+    background-image: url("../img/human_prod.jpeg");
 }
 #prod_animal{
-    background-image: url("https://images.unsplash.com/photo-1510337550647-e84f83e341ca?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("../img/animal_prod.jpeg");
 }
 #prod_life{
     background-image: url("https://images.unsplash.com/photo-1643780668909-580822430155?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 #prod_clinical{
     background-image: url("https://images.unsplash.com/photo-1675044794036-4f20856a5d05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-.hover_text{
-    width: 100%;
-    height: 40vh;
-    color: rgba(255, 255, 255, 0);
-    font-size: 22px;
-    font-weight: 600;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.each_cate h3{
-    font-weight: 800;
-    font-size: 24px;
-    margin: 2% 1%;
-}
-.each_cate h4{
-    font-size: 18px;
-    margin: 2% 1%;
 }
