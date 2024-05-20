@@ -17,7 +17,7 @@ header{
 
 .sub_header{
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.651);
+    background-color: rgba(255, 255, 255, 0.8);
     z-index: 2;
     position: absolute;
     justify-content: center;
@@ -144,9 +144,10 @@ ul li{
 .sub_cate_list ul li a{
     text-align: left;
     margin-bottom: 5px;
+    color: #646363;
 }
 #long_cate{
-    width: 180px;
+    width: 210px;
 }
 .sub_cate_list ul li a:hover{
     font-weight: 800;
@@ -184,7 +185,6 @@ ul li{
 
 .prouct_type{
     height: 100%;
-    text-align: center;
     color: black;
     font-weight: 1000;
     display: flex;
