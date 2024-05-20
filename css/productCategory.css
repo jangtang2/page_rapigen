@@ -96,16 +96,16 @@
     position: absolute;
     top: 0;
     z-index: 1;
+}
+.black_card a div{
+    text-align: center;
     color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
 }
-.black_card div{
-    text-align: center;
-}
-.black_card div:nth-of-type(1){
+.black_card> div{
     height: 90%;
 }
-.black_card div:nth-of-type(2){
+.black_card a div{
     width: max-content;
     padding: 10px 25px;
     margin: 0 auto;
@@ -115,13 +115,14 @@
     color: white;
     transition: all 0.5s;
 }
-.card:hover .black_card div:nth-of-type(1){
+.card:hover .black_card >div{
     height: 70%;
     transition: all 0.5s;
 }
-.card:hover .black_card div:nth-of-type(2){
+.card:hover .black_card a div {
     border: solid 1px white;
     transition: all 0.5s;
+    color: white;
 }
 #prod_human{
     background-image: url("../img/human_prod.jpeg");
