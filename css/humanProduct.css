@@ -123,7 +123,7 @@
 .prod_item{
     width: 300px;
     height: 300px;
-    border: solid 1px;
+    border: solid 1px #e5e5e5;
     display: flex;
     justify-content: center;
     flex-direction: column;
