@@ -32,6 +32,7 @@ header{
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 .middle_header{
     width: 70%;
@@ -45,6 +46,7 @@ header{
     justify-content: right;
     margin-top: 30px;
     margin-bottom: 20px;
+    padding-right: 20px;
 }
 .left_header >a{
     height: 100%;
@@ -106,11 +108,11 @@ ul li{
 
 .category >ul > li{
     height: 100%;
-    width: 85px;
+    width: 100px;
     text-align:center;
     font-weight: 600;
     margin: 0px 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .category >ul > li>a{
     height: 80%;
@@ -135,7 +137,7 @@ ul li{
     margin-right: 20px;
     color: rgb(41, 41, 41);
     font-size: 14px;
-    width: 85px;
+    width: 100px;
     text-align: center;
     margin: 0px 10px;
 }
@@ -176,7 +178,7 @@ ul li{
     height: 3px;
     background-color:white;
     position: absolute;
-    bottom: -2px;
+    bottom: 1px;
     z-index: 1;
 }
 
@@ -225,18 +227,18 @@ ul li{
 }
 
 .lang_choice{
-    width: 70px;
+    width: 80px;
     position: relative;
 }
 #langOption{
     position: absolute;
     top:0;
-    z-index: 1;
+    z-index: 2;
     display: none;
 }
 .lang_btn_list{
-    width: 70px;
-    background-color: #C8102E;
+    width: 80px;
+    background-color: #ffffff6e;
     display: flex;
     flex-direction: column;
 }
@@ -244,11 +246,10 @@ ul li{
     padding: 5px 10px;
 }
 .lang_placeholder:hover{
-    color: white;
-    background-color: #C8102E;
+    color: black;
 }
 .lang_btn_list a{
-    color: white;
+    color: black;
     padding: 5px 10px;
 }
 .lang_btn:hover{
