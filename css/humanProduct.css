@@ -80,7 +80,8 @@
 }
 .sub_cate_row{
     display: flex;
-    margin-top: 1%;
+    justify-content: space-between;
+    margin: 1%;
 }
 .sub_cate_btn{
     width: 15%;
@@ -88,12 +89,15 @@
     text-align: center;
     padding:  5px 0;
     border-radius: 100px;
-    margin-right: 2%;
+    margin-right: 1%;
 }
 .sub_cate_btn.active{
     background-color: #C8102E;
-    border: none;
+    border: solid 1px #C8102E;
     color: white;
+}
+.sub_cate_btn.hidden{
+    border-color: #64636300;
 }
 .sub_cate_row .sub_cate_btn:last-of-type{
     margin-right: 0%;

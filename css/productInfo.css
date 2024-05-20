@@ -1,0 +1,154 @@
+.title_banner{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: bisque;
+}
+.title_banner >div{
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0 15%;
+}
+.inner_body{
+    width: 100%;
+    padding: 0px 15%;
+}
+#prod_human{
+    background-image: url("https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.flow_section{
+    width: 70%;
+    text-align: end;
+    color: #646363;
+    margin-bottom: 5%;
+}
+.black_text{
+    color: black;
+}
+.text_600{
+    font-weight: 600;
+}
+.main_info_section{
+    width: 70%;
+    display: flex;
+}
+.img_zone{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+.img_zone img{
+    width: 100%;
+    height: 100%;
+}
+.text_zone{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+.txt_m{
+    font-size: 22px;
+    font-weight: 800;
+}
+.txt_l{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.txt_s{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.txt_xs{
+    font-size: 12px;
+    font-weight: 600;
+    color: #646363;
+    line-height: 20px;
+}
+.specification_section{
+    width: 70%;
+}
+.title_line{
+    display: flex;
+}
+.dot{
+    width: 10px;
+    height: 20px;
+    background-color: #C8102E;
+    margin-right: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-style: solid none;
+    border-color: #c0c0c0;
+    border-width: 2px;
+    margin-bottom: 10%;
+}
+tr{
+    width: 100%;
+}
+th{
+    border-style: solid none;
+    border-color: #c0c0c0;
+    border-width: 1px;
+    font-weight: 800;
+    padding-left: 5px;
+    color: #3f3f3f;
+}
+.spec_table th{
+    width: 15%;
+}
+.clinical_table th{
+    width: 30%;
+}
+td{
+    border-style: solid none;
+    border-color: #c0c0c0;
+    border-width: 1px;
+    color: #646363;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.spec_table td{
+    width: 85%;
+}
+.clinical_table td{
+    width: 35%;
+    text-align: center;
+}
+.clinical_table tr:first-of-type{
+    background-color: #c0c0c0;
+}
+.clinical_table tr:first-of-type td{
+    font-weight: 800;
+    color: #3f3f3f;
+}
+.ordering_table td{
+    width: 25%;
+    text-align: center;
+}
+.ordering_table tr:first-of-type{
+    background-color: #c0c0c0;
+}
+.ordering_table tr:first-of-type td{
+    font-weight: 800;
+    color: #3f3f3f;
+}
+.ordering_section{
+    width: 70%;
+}
+.clinical_section{
+    width: 70%;
+}
