@@ -6,6 +6,25 @@ footer{
     background-color: #232424;
     z-index: 1;
     display: flex;
+    padding: 0 5%;
+}
+.footer_row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.left_footer{
+    width: 80%;
+}
+.right_footer{
+    width: 20%;
+}
+.footer_data_img{
+    display: flex;
+    justify-content: left;
+}
+.footer_data_img img{
+    width: 15%;
 }
 .footer_logo{
     height: 100%;
@@ -43,11 +62,11 @@ footer{
     color: #5c5c5c ;
 }
 .footer_data_text{
-    width: 100%;
+    width: 70%;
     color:#5c5c5c ;
     font-size: 22px;
     text-align: left;
-    margin-left: 30px;
+    margin:0 15%;
 }
 .copyright{
     margin-top: 10px;
