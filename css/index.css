@@ -171,7 +171,7 @@
     background-size: cover;
     overflow: hidden;
     background-position: center;
-    background-image: url("../img/index_inner2_background.jpeg");
+    background-image: url("../img/index_inner2_background.png");
 }
 .inner_slide:nth-of-type(3){
     animation: fade-in 0.3s;
@@ -179,7 +179,7 @@
     height: 100%;
     background-size: cover;
     overflow: hidden;
-    background-image: url("../img/index_inner3_background.jpeg");
+    background-image: url("../img/index_inner3_background.png");
 }
 #inner3 h1{
     margin-top: 5%;
