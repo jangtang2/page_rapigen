@@ -1,9 +1,92 @@
 footer{
     width: 100%;
-    height: 30%;
+    height: 18%;
     background-color: #232424;
     display: flex;
+    padding: 4% 10%;
 }
+.footer_row{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.left_footer{
+    width: 85%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.right_footer{
+    width: 15%;
+    height: 100%;
+    position: relative;
+}
+.footer_data_img{
+    display: flex;
+    justify-content: left;
+}
+.footer_data_img img{
+    width: 15%;
+}
+.footer_data_text{
+    width: 70%;
+    color:#5c5c5c ;
+    font-size: 1.375rem;
+    text-align: left;
+    margin-top: 2%;
+    line-height: 1.2rem;
+}
+.sns_zone{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-size: 1.375rem;
+    justify-content: right;
+    margin-top: 65%;
+}
+.sns_zone a{
+    height: 20%;
+    margin-left: 1.875rem;
+}
+.sns_zone img{
+    height: 1.875rem;
+}
+.family_zone{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+.family_btn{
+    width: 100%;
+    padding: 3% 1%;
+    display: flex;
+    justify-content: space-between;
+    color: #5c5c5c;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none none solid none;
+    border-color: #5c5c5c;
+}
+.dropdown{
+    width: 100%;
+    color: #5c5c5c;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: none;
+}
+.dropdown_item div{
+    width: 100%;
+    height: 100%;
+    padding: 3% 5%;
+    text-align: left;
+}
+
 .footer_logo{
     height: 100%;
     width: 55%;
@@ -16,35 +99,15 @@ footer{
     height: 15%;
     object-fit: scale-down;
     margin: 8% 5%;
+    fill: #5c5c5c;
 }
 .footer_data{
     width: 45%;
-    height: 80%;
-    padding-top: 1.5%;
+    height: 100%;
+    padding: 1%;
 }
 .footer_data_section{
     width: 100%;
-    height: 100%;
+    height: 55%;
     border-left: solid #5c5c5c  2px;
-}
-.footer_data_icon{
-    width: 100%;
-    height: 30px;
-    display: flex;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-.footer_data_icon a{
-    margin-left: 30px;
-    color: #5c5c5c ;
-}
-.footer_data_text{
-    width: 100%;
-    color:#5c5c5c ;
-    font-size: 22px;
-    text-align: left;
-    margin-left: 30px;
-}
-.copyright{
-    margin-top: 10px;
 }

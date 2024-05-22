@@ -1,0 +1,197 @@
+.inner_body{
+    width: 100%;
+}
+
+.inner_module{
+    width: 100%;
+    height: 90svh;
+   align-content: center;
+   position: relative;
+   overflow: hidden;
+}
+.inner_slide_wrap{
+    z-index: 1;
+    height: 100%;
+}
+.inner_slide h1, h2, h3, h4{
+    color: white;
+    text-align: center;
+}
+.inner_slide img{
+    width: 100%;
+    height: 100%;
+}
+.inner_slide h1{
+    margin-top: 10px;
+    font-size: 54px;
+}
+.inner_slide h2{
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 30px;
+}
+.inner_slide h3{
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.inner_slide h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.inner_slide:nth-of-type(1){
+    animation: fade-in 0.3s;
+    display:block;
+    height: 100%;
+    overflow: hidden;
+}
+.inner_slide:nth-of-type(2){
+    animation: fade-in 0.3s;
+    display: none;
+    height: 100%;
+    overflow: hidden;
+}
+.inner_slide:nth-of-type(3){
+    animation: fade-in 0.3s;
+    display: none;
+    height: 100%;
+    overflow: hidden;
+}
+#inner3 h1{
+    margin-top: 5%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dot_section{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    z-index: 0;
+    position: absolute;
+    bottom: 5%;
+}
+.dot{
+    margin:0 10px;
+    width: 100px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.4) ;
+}
+.dot:nth-of-type(1){
+    background-color: black;
+}
+.white_space{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 10% 15%;
+}
+
+.slide_title{
+    width: 70%;
+    text-align: left;
+    font-size: 1.375rem;
+    font-weight: 800;
+    color: #C8102E;
+}
+.slide_title span{
+    font-weight: 200;
+}
+.slide_sub_title{
+    font-size: 1.75rem;
+    width: 70%;
+    text-align: left;
+    margin-top: .625rem;
+    line-height: 2rem;
+    margin-bottom: 1.5%;
+}
+.slide_sub_title span:nth-child(1){
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+}
+.slide_sub_title span:nth-child(2){
+    font-weight: 800;
+    color: black;
+}
+.slide_sub_title span:nth-child(3){
+    font-weight: 400;
+    color: black;
+}
+
+.slide_sub_title span p{
+    font-weight: 800;
+}
+
+.card_set{
+    margin-top:5px;
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+}
+.card_set:nth-of-type(1){
+    margin-bottom: 10px;
+}
+.prod_card{
+    width: 23%;
+    height: 50vh;
+    margin: 0px 0px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+.prod_title{
+    height: 100%;
+    width: 100%;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.prod_title div:nth-of-type(1){
+    height: 77%;
+    width: 100%;
+   
+}
+.prod_title div:nth-of-type(2){
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.prod_title div:nth-of-type(2) span:nth-of-type(1){
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.prod_title div:nth-of-type(2) span:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 300;
+}
+.prod_title:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 1s;
+}
+#prod_covid{
+    background-image: url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+#prod_human{
+    background-image: url("../img/human_prod.jpeg");
+}
+#prod_animal{
+    background-image: url("../img/animal_prod.jpeg");
+}
+#prod_etc{
+    background-image: url("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#prod_life{
+    background-image: url("../img/life_prod.jpeg");
+}
+#prod_clinical{
+    background-image: url("https://images.unsplash.com/photo-1675044794036-4f20856a5d05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
