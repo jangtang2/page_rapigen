@@ -1,3 +1,6 @@
+
+/* ------------------first section-------------------*/
+
 .inner_body{
     width: 100%;
 }
@@ -83,6 +86,9 @@
 .dot:nth-of-type(1){
     background-color: black;
 }
+
+/* ------------------second section-------------------*/
+
 .white_space{
     height: 100%;
     width: 100%;
@@ -105,18 +111,18 @@
     width: 70%;
     text-align: left;
     margin-top: .625rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
     margin-bottom: 1.5%;
 }
-.slide_sub_title span:nth-child(1){
+.slide_sub_title .type_A{
     color: rgb(95, 95, 95);
     font-weight: 400;
 }
-.slide_sub_title span:nth-child(2){
+.slide_sub_title .type_B{
     font-weight: 800;
     color: black;
 }
-.slide_sub_title span:nth-child(3){
+.slide_sub_title .type_C{
     font-weight: 400;
     color: black;
 }
@@ -193,5 +199,79 @@
     background-image: url("../img/life_prod.jpeg");
 }
 #prod_clinical{
-    background-image: url("https://images.unsplash.com/photo-1675044794036-4f20856a5d05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("../img/clinical_prod.jpeg");
+}
+
+/* ------------------third section-------------------*/
+.RnD_section{
+    height: 100%;
+    background-image: url("../img/index_rnd_background.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.silk{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10% 15%;
+}
+#RnD_section{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("../img/index_rnd_background.jpeg");
+    background-position: center;
+}
+#RnD_section .slide_title{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#RnD_section .slide_sub_title:nth-of-type(1){
+    width: 70%;
+    font-weight: 400;
+    margin-bottom: 0%;
+    text-align: center;
+}
+#RnD_section .slide_sub_title:nth-of-type(2){
+    width: 70%;
+    font-weight: 600;
+    margin-top: 0%;
+    text-align: center;
+}
+.icon_section{
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 3%;
+}
+.icon_section tr{ 
+    width: 50%;
+}
+.icon_card{ 
+    width: 20%;
+    align-content: center;
+}
+.icon_card:nth-of-type(2){ 
+    border-style: none solid;
+    border-color: rgba(255, 255, 255, 0.411);
+    border-width: 1px;
+}
+.icon_card img{
+    width: 40%;
+    margin-top: 25%;
+    margin: 0 30%;
+}
+.icon_card h6{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20%;
+    color: white;
+}
+
+.white_text{
+    color: white;
 }
