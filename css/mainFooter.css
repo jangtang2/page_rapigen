@@ -18,6 +18,9 @@ footer{
     width: 85%;
     height: 100%;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .right_footer{
     width: 15%;
@@ -38,11 +41,6 @@ footer{
     text-align: left;
     margin-top: 2%;
     line-height: 1.2rem;
-}
-.copyright{
-    margin-top: 2%;
-    position: absolute;
-    bottom: 0;
 }
 .sns_zone{
     width: 100%;
