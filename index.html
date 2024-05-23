@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <title>Rapigen</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/mainFooter.css">
     <script src="https://kit.fontawesome.com/a5da5bf77e.js" crossorigin="anonymous"></script>
     <title>Rapigen</title>    
     <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
-
 
 <style>
     * {
     margin: 0;
     padding: 0;
     font-family: 'SUIT', sans-serif;
-
 }
 
 body{
-    height: 100vh;
-    overflow: hidden;
-    min-width: 1175px;
+    height: 100svh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    min-width: 1300px;
+    background-color: #232424;
 }
 
 </style>
@@ -147,9 +148,9 @@ body{
     </header>
     <script src="js/langBtn.js"></script>
     <script src="js/subHeader.js"></script>
-    
-    <div class="slide_wrap">
-        <div class="slide">
+
+    <div class="inner_body">
+        <div class="slide_section">
             <div class="inner_module">
                 <div class="inner_slide_wrap">
                     <div class="inner_slide" id="inner1">
@@ -169,12 +170,12 @@ body{
                 </div>
             </div>
         </div>
-        <div class="slide">
+        <div class="product_section">
             <div class="white_space"> 
-                <h1 class="slide_title">Products <span>/</span></h1>
+                <h1 class="slide_title">Products</h1>
                 <h4 class="slide_sub_title">
-                    <span>혁신적 기술과 차별화된 품질을 바탕으로<br></span>
-                    <span>최고의 제품</span><span>을 만듭니다.</span>
+                    <span class="type_A">혁신적 기술과 차별화된 품질을 바탕으로<br></span>
+                    <span class="type_B">최고의 제품</span><span class="type_C">을 만듭니다.</span>
                 </h4>
                 <div class="card_set">
                     <div class="prod_card" id="prod_human">
@@ -213,13 +214,16 @@ body{
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
-        <div class="slide" id="RND_slide">
+        <div class="RnD_section">
             <div class="silk">
                 <h1 class="slide_title">R & D Center</h1>
-                <h4 class="slide_sub_title white_text">전략적이고 체계적인 프로세스로</h4>
-                <h4 class="slide_sub_title white_text">끊임없이 연구개발합니다.</h4>
+                <h4 class="slide_sub_title">
+                    <span class="white_text">전략적이고 체계적인 프로세스로<br></span>
+                    <span class="white_text">끊임없이 연구개발합니다.</span>
+                </h4>
                 <table class="icon_section">
                     <tr>
                         <td class="icon_card">
@@ -238,12 +242,12 @@ body{
                 </table>
             </div>
         </div>
-        <div class="slide" id="news_slide">
+        <div class="news_section">
             <div class="white_space" > 
-                <h1 class="slide_title">News<span>/</span></h1>
+                <h1 class="slide_title">News</h1>
                 <h4 class="slide_sub_title">
-                    <span>래피젠의 <span>최신 소식</span>을<br></span>
-                    <span>전달해드립니다.</span>
+                    <span class="type_A">래피젠의 </span><span class="type_B">최신 소식</span><span class="type_C">을<br></span>
+                    <span class="type_C">전달해드립니다.</span>
                 </h4>
                 <div class="view_more"><a href="#">View more +</a></div>
                 <div class="card_set">
@@ -304,56 +308,54 @@ body{
                 </div>
             </div>
         </div>
-        
-        <div class="slide" id="Contact_slide">
-            <div class="silk">
-                <div class="content_row">
-                    <h4 class="slide_sub_title white_text">래피젠에 궁금하신 내용을<br>문의주시면 답변드리겠습니다.</h4>
-                    <div class="contact_btn_section">
-                        <a href="email_form_USA.html">
-                            <div class="contact_coin"><div>문의하기</div></div>
-                        </a>
-                    </div>
+        <div class="contact_section">
+            <div class="content_row">
+                <h4 class="slide_sub_title"><span class="type_B">래피젠에 궁금하신 내용을<br>문의주시면 답변드리겠습니다.</span></h4>
+                <div class="contact_btn_section">
+                    <a href="email_form_USA.html">
+                        <div class="contact_coin"><div>문의하기</div></div>
+                    </a>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="footer_row">
-                <div class="left_footer">
-                    <div class="footer_data_img">
-                        <img src="img/rapigen_CI_gray.svg">
-                    </div>
-                    <div class="footer_data_text">
-                        <h6>[본사] : 경기도 수원시 권선구 산업로 155번길 161 (우: 16648)</h6>
-                        <h6>[미국지사] : 155 Gibbs Street, Suite 434/435, Rockville, MD, 20850 U.S.A.</h6>
-                        <h6>TEL : 031-427-4677  |   FAX : 031-427-4678</h6>
-                    </div>
-                    <div class="footer_data_text">
-                        <h6 class="copyright">Copyright ⓒ 2016 Rapigen Inc. All rights reserved.</h6>
-                    </div>
+        
+    </div>
+
+
+    <footer>
+        <div class="footer_row">
+            <div class="left_footer">
+                <div class="footer_data_img">
+                    <img src="img/rapigen_CI_gray.svg">
                 </div>
-                <div class="right_footer">
-                    <div class="family_zone">
-                        <button class="family_btn"><span>Family Site</span><span>∨</span></button>
-                        <div class="dropdown" id="dropdown">
-                            <a class="dropdown_item"><div>family 1</div></a>
-                            <a class="dropdown_item"><div>family 2</div></a>
-                            <a class="dropdown_item"><div>family 3</div></a>
-                        </div>
-                    </div>
-                    <div class="sns_zone">
-                        <a target="_blank" href="https://www.linkedin.com/company/rapigen-inc"><i class="fab fa-brands fa-linkedin"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/channel/UC3V23x7mrtWr3tfTWPMRJIg"><i class="fab fa-brands fa-youtube"></i></a>
-                    </div>
+                <div class="footer_data_text">
+                    <h6>[본사] : 경기도 수원시 권선구 산업로 155번길 161 (우: 16648)</h6>
+                    <h6>[미국지사] : 155 Gibbs Street, Suite 434/435, Rockville, MD, 20850 U.S.A.</h6>
+                    <h6>TEL : 031-427-4677  |   FAX : 031-427-4678</h6>
+                </div>
+                <div class="footer_data_text">
+                    <h6 class="copyright">Copyright ⓒ 2016 Rapigen Inc. All rights reserved.</h6>
                 </div>
             </div>
-            
-        </footer>
-    </div>
-    
-
-    <script src="js/slide.js"></script>
-    <script src="js/familyBtn.js"></script>
-
+            <div class="right_footer">
+                <div class="family_zone">
+                    <button class="family_btn"><span>Family Site</span><span>∨</span></button>
+                    <div class="dropdown" id="dropdown">
+                        <a class="dropdown_item"><div>family 1</div></a>
+                        <a class="dropdown_item"><div>family 2</div></a>
+                        <a class="dropdown_item"><div>family 3</div></a>
+                    </div>
+                </div>
+                <div class="block"></div>
+                <div class="sns_zone">
+                    <a target="_blank" href="https://www.linkedin.com/company/rapigen-inc"><img src="img/linkedin.svg"></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UC3V23x7mrtWr3tfTWPMRJIg"><img src="img/youtube.svg"></a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
 </body>
+<script src="js/slide.js"></script>
+<script src="js/familyBtn.js"></script>
 </html>
