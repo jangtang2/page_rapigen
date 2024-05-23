@@ -131,7 +131,7 @@
 }
 
 .card_set{
-    margin-top:5px;
+    margin-top: .3125rem;
     width: 70%;
     display: flex;
     justify-content:space-between;
@@ -141,7 +141,7 @@
 }
 .prod_card{
     width: 23%;
-    height: 50vh;
+    height: 45svh;
     margin: 0px 0px;
     background-size: cover;
     background-position: center;
@@ -155,31 +155,30 @@
     color:white;
     font-size: 16px;
     font-weight: 600;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 .prod_title div:nth-of-type(1){
-    height: 77%;
+    height: 70%;
     width: 100%;
    
 }
 .prod_title div:nth-of-type(2){
     text-align: left;
-    padding-left: 20px;
+    padding-left: 1.25rem;
     display: flex;
     flex-direction: column;
 
 }
 .prod_title div:nth-of-type(2) span:nth-of-type(1){
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 .prod_title div:nth-of-type(2) span:nth-of-type(2){
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 300;
 }
 .prod_title:hover{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     transition: all 1s;
 }
 #prod_covid{
@@ -213,6 +212,12 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10% 15%;
+}
+.center_align .slide_title{
+    text-align: center;
+}
+.center_align .slide_sub_title{
+    text-align: center;
 }
 #RnD_section{
     width: 100%;
