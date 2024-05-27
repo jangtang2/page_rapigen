@@ -6,6 +6,7 @@ let observer = new IntersectionObserver((e)=>{
         }
         else{
             box.target.style.opacity=0;
+            box.target.style.transform = "translateY(20%)"
         }
     })
 })
