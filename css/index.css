@@ -458,3 +458,6 @@
 .showBox.lv4{
     transition-delay: 0.60s;
 }
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
+}
