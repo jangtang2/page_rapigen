@@ -446,3 +446,9 @@
     flex-direction: column;
     text-align: center;
 }
+
+.showBox{
+    opacity: 0;
+    transform: translateY(20%);
+    transition:  all 1s ease-in-out;
+}
