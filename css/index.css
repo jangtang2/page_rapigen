@@ -484,3 +484,21 @@
 .swiper-pagination{
     margin-bottom: 2%;
 }
+
+.go_top{
+    width: 5svw;
+    height: 5svw;
+    position: sticky;
+    bottom: 1svw;
+    margin-left: 93svw;
+    z-index: 15;
+    background-color: #C8102E;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.go_top div{
+    font-size: 1rem;
+}
