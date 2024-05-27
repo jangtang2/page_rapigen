@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index2.css">
     <script src="https://kit.fontawesome.com/a5da5bf77e.js" crossorigin="anonymous"></script>
     <title>Rapigen</title>    
-    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 <style>
     * {
@@ -151,38 +154,43 @@ body{
     <script src="js/subHeader.js"></script>
 
     <div class="inner_body">
-        <div class="slide_section">
-            <div class="inner_module">
-                <div class="inner_slide_wrap">
-                    <div class="inner_slide" id="inner1">
-                        <img src="img/index_inner1_background.jpeg">
-                        <div class="inner_text">
-                            <h1 class="big_inner showBox lv1 slow">Our Technology Leads the Future</h1>
-                            <h2 class="small_inner showBox lv3 slow">혁신적인 기술로 더 나은 미래를 만들어 갑니다.</h2>
-                        </div>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                    <img src="img/index_inner1_background.jpeg">
+                    <div class="inner_text">
+                        <h1 class="big_inner showBox lv1 slow">Our Technology Leads the Future</h1>
+                        <h2 class="small_inner showBox lv3 slow">혁신적인 기술로 더 나은 미래를 만들어 갑니다.</h2>
                     </div>
-                    <div class="inner_slide" id="inner2">
-                        <img src="img/index_inner2_background.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/index_inner2_background.png">
                         <div class="inner_text">
                             <h1 class="big_inner showBox lv1 slow">Healthy Tomorrows, Our Commitment</h1>
                             <h2 class="small_inner showBox lv3 slow">인류의 건강한 내일을 위해 래피젠은 끊임없이 연구하겠습니다.</h2>
                         </div>
-                    </div>
-                    <div class="inner_slide" id="inner3">
-                        <img src="img/index_inner3_background.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/index_inner3_background.png">
                         <div class="inner_text">
                             <h1 class="big_inner showBox lv1 slow">Innovationg for a Better Future</h1>
                             <h2 class="small_inner showBox lv3 slow">최상의 솔루션으로 미래를 선도합니다.</h2>
                         </div>
-                    </div>
-                </div>
-                <div class="dot_section">
-                    <div class="dot" id="dot1"></div>
-                    <div class="dot" id="dot2"></div>
-                    <div class="dot" id="dot3"></div>
-                </div>
+              </div>
+              ...
             </div>
-        </div>
+            
+            <!-- 페이징 필요시 추가 -->
+            <div class="swiper-pagination"></div>
+            <!-- 이전, 다음 버튼 필요시 추가 
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>-->
+          
+            <!-- 스크롤 필요시 추가 
+            <div class="swiper-scrollbar"></div>-->
+        </div> 
         <div class="product_section">
             <div class="white_space"> 
                 <h1 class="slide_title showBox">Products</h1>
@@ -369,7 +377,7 @@ body{
         
     </footer>
 </body>
-<script src="js/slide.js"></script>
+<script src="js/slide2.js"></script>
 <script src="js/familyBtn.js"></script>
 <script src="js/softShow.js"></script>
 </html>
