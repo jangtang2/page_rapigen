@@ -46,43 +46,6 @@
     font-weight: 400;
 
 }
-.inner_slide:nth-of-type(1){
-    animation: fade-in 0.3s;
-    display:block;
-    height: 100%;
-    overflow: hidden;
-}
-.inner_slide:nth-of-type(2){
-    animation: fade-in 0.3s;
-    display: none;
-    height: 100%;
-    overflow: hidden;
-}
-.inner_slide:nth-of-type(3){
-    animation: fade-in 0.3s;
-    display: none;
-    height: 100%;
-    overflow: hidden;
-}
-
-
-.dot_section{
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    z-index: 10;
-    position: absolute;
-    bottom: 5%;
-}
-.dot{
-    margin:0 10px;
-    width: 100px;
-    height: 5px;
-    background-color: rgba(0, 0, 0, 0.4) ;
-}
-.dot:nth-of-type(1){
-    background-color: black;
-}
 
 /* ------------------second section-------------------*/
 
@@ -96,19 +59,20 @@
 .slide_title{
     width: 70%;
     text-align: left;
-    font-size: 1.375rem;
+    font-size: 1.3vw;
     font-weight: 800;
     color: #C8102E;
-    margin-bottom: .9375rem;
+    margin-bottom: 1%;
 }
 .slide_title span{
     font-weight: 200;
 }
 .slide_sub_title{
-    font-size: 1.75rem;
+    font-size: 1.9vw;
     width: 70%;
     text-align: left;
-    line-height: 2.5rem;
+    line-height: 2.7vw;
+    margin-bottom: 2%;
 }
 .slide_sub_title .type_A{
     color: rgb(95, 95, 95);
@@ -128,7 +92,6 @@
 }
 
 .card_set{
-    margin-top: .3125rem;
     width: 70%;
     display: flex;
     justify-content:space-between;
@@ -150,28 +113,26 @@
     height: 100%;
     width: 100%;
     color:white;
-    font-size: 16px;
-    font-weight: 600;
 }
 .prod_title div:nth-of-type(1){
-    height: 70%;
+    height: 75%;
     width: 100%;
    
 }
 .prod_title div:nth-of-type(2){
     text-align: left;
-    padding-left: 1.25rem;
+    padding: 0 10%;
     display: flex;
     flex-direction: column;
-
+    word-break: keep-all;
 }
 .prod_title div:nth-of-type(2) span:nth-of-type(1){
-    font-size: 1.125rem;
+    font-size: 1.1vw;
     font-weight: 600;
-    margin-bottom: .625rem;
+    margin-bottom: 5%;
 }
 .prod_title div:nth-of-type(2) span:nth-of-type(2){
-    font-size: .875rem;
+    font-size: 0.9vw;
     font-weight: 300;
 }
 .prod_title:hover{
@@ -229,7 +190,7 @@
     width: 30svh;
     height: 30svh;
     align-content: center;
-    border-radius: 200px;
+    border-radius: 10vw;
     border: 1px solid rgba(255, 255, 255, 0.411);
 }
 
@@ -241,7 +202,7 @@
 .icon_card h6{
     width: 100%;
     text-align: center;
-    font-size: 1.375rem;
+    font-size: 1.5vw;
     font-weight: 400;
     margin-bottom: 20%;
     color: white;
@@ -261,7 +222,7 @@
     flex-direction: column;
     background-color: white;
     border-top: solid .0625rem #C8102E;
-    padding-top: .625rem;
+    padding-top: 0.6vw;
 }
 .news_block1:nth-of-type(1){
     
@@ -300,13 +261,13 @@
     margin: 5% 0;
 }
 .news_title_L{
-    font-size: 24px;
+    font-size: 1.5vw;
     text-align: left;
     font-weight: 600;
-    margin-bottom: .625rem;
+    margin-bottom: 1vw;
 }
 .news_detail_L{
-    font-size: 1.25rem;
+    font-size: 1.3vw;
     text-align: left;
 }
 .news_thumb{
@@ -319,12 +280,12 @@
 .news_text_M{
     width: 65%;
     height: 100%;
-    padding: 1.875rem;
+    padding: 1vw 1.5vw;
 }
 .news_text_S{
     width: 90%;
     height: 100%;
-    padding: 1.875rem 0px;
+    padding: 1.8vw 0px;
 }
 .news_card{
     width: 60%;
