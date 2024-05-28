@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    height: 18%;
+    height: 12%;
     background-color: #232424;
     display: flex;
     padding: 4% 10%;
@@ -34,25 +34,25 @@ footer{
 .footer_data_text{
     width: 70%;
     color:#5c5c5c ;
-    font-size: 1.375rem;
+    font-size: 1.4vw;
     text-align: left;
     margin-top: 2%;
-    line-height: 1.2rem;
+    line-height: 1.4vw;
 }
 .sns_zone{
     width: 100%;
     height: 10%;
     display: flex;
-    font-size: 1.375rem;
+    font-size: 1.4vw;
     justify-content: right;
-    margin-top: 65%;
+    margin-top: 70%;
 }
 .sns_zone a{
     height: 20%;
-    margin-left: 1.875rem;
+    margin-left: 1.5vw;
 }
 .sns_zone img{
-    height: 1.875rem;
+    height: 1.8vw;
 }
 .family_zone{
     width: 100%;
@@ -66,7 +66,7 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #5c5c5c;
-    font-size: 1rem;
+    font-size: 1.1vw;
     font-weight: 800;
     background-color: rgba(255, 255, 255, 0);
     border-style: none none solid none;
@@ -75,7 +75,7 @@ footer{
 .dropdown{
     width: 100%;
     color: #5c5c5c;
-    font-size: 1rem;
+    font-size: 1vw;
     font-weight: 800;
     background-color: rgba(255, 255, 255, 0.3);
     display: none;
