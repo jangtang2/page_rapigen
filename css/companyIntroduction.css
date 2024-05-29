@@ -21,8 +21,8 @@
 }
 .img_banner{
     width: 100%;
-    height: 18vw;
-    margin-bottom: 7%;
+    height: 50%;
+    margin-bottom: 10%;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -51,10 +51,10 @@
     text-align: center;
     color:  #000000;
     margin-bottom: 1%;
-    font-size: 2.2vw;
+    font-size: 2.5vw;
 }
 .text_section h1:nth-of-type(2){
-    margin-bottom: 6%;
+    margin-bottom: 7%;
 
 }
 .bold_800{
@@ -70,7 +70,7 @@
     color:  #C8102E;
     margin-bottom: 4%;
     font-weight: 800;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 .text_section #E-h1{
     color:  #C8102E;
@@ -78,8 +78,8 @@
     font-size: 26px;
 }
 .text_section span{
-    font-size: 1.1vw;
-    line-height: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 2vw;
     width: 100%;
     text-align: center;
     font-weight: 600;
@@ -89,7 +89,7 @@
     margin-bottom: 1.5vw;
 }
 .text_section span:nth-of-type(2){
-    margin-bottom: 1.8vw;
+    margin-bottom: 10%;
 }
 .text_section #E-span{
     font-size: 16px;
@@ -102,16 +102,16 @@
 .vision_section>h6{
     width: 100%;
     color:  #C8102E;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     font-weight: 800;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 .vision_section h1{
     width: 100%;
     color:  #000000;
     margin-bottom: 0.5%;
-    font-size: 2.2vw;
-    margin-bottom: 5%;
+    font-size: 2.5vw;
+    margin-bottom: 3%;
 }
 .vision_content{
     width: 100%;
@@ -240,4 +240,29 @@
 .element_box:nth-of-type(4){
     position: relative;
     right: 4.5vw;
+}
+
+.showBox{
+    opacity: 0;
+    transform: translateY(20%);
+    transition:  all 1s ease-in-out;
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.3s;
+}
+.showBox.lv3{
+    transition-delay: 0.60s;
+}
+.showBox.lv4{
+    transition-delay: 0.90s;
+}
+.showBox.lv5{
+    transition-delay: 1.2s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
 }
