@@ -48,7 +48,7 @@
 /*----------showbox---------*/
 .showBox{
     opacity: 0;
-    transform: translateY(10%);
+    transform: translateY(5%);
     transition:  all 1s ease-in-out;
 
 }
