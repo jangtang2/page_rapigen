@@ -241,7 +241,69 @@
     position: relative;
     right: 4.5vw;
 }
+.greeting_section{
+    width: 80%;
+    margin-bottom: 2%;
+    position: relative;
+}
+.greeting_section>h6{
+    width: 100%;
+    color:  #C8102E;
+    margin-bottom: 1%;
+    font-weight: 800;
+    font-size: 1.2vw;
+}
+.greeting_section h1{
+    width: 100%;
+    color:  #000000;
+    margin-bottom: 0.5%;
+    font-size: 2.5vw;
+    margin-bottom: 3%;
+}
+.greeting_section h4{
+    width: 100%;
+    color:  #000000;
+    margin-bottom: 0.5%;
+    font-size: 1.3vw;
+    margin-bottom: 3%;
+}
+.greeting_section img{
+    width: 45vw;
+    height: 22vw;
+    object-fit: cover;
+    object-position: right;
+    position: absolute;
+    z-index: 1;
+    right: -15%;
+    top: -15%;
 
+}
+.greeting_body{
+    background-color:rgb(255, 250, 243);
+    padding: 3% 10%;
+}
+.greeting_body > p{
+    width: 100%;
+    font-size: 1.1vw;
+    margin-bottom: 4.5vh;
+    line-height: 1.3vw;
+    font-weight: 500;
+}
+.greeting_body > p:first-of-type{
+    width: 50%;
+}
+.greeting_body > span{
+    margin-top: 5vw;
+    width: 100%;
+    font-size: 1.1vw;
+    margin-bottom: 4.5vh;
+    line-height: 1.3vw;
+    font-weight: 500;
+}
+.greeting_body > span.bold_800{
+    font-weight: 800;
+}
+/*----------showbox---------*/
 .showBox{
     opacity: 0;
     transform: translateY(20%);

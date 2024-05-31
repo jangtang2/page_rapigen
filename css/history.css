@@ -1,0 +1,141 @@
+.title_banner{
+    width: 100%;
+    height: 16vw;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+.title_banner div:nth-of-type(1){
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 2.6vw;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.title_banner div:nth-of-type(2){
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+    font-size: 1vw;
+    margin-left: 5%;
+}
+.img_banner{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: rgb(38, 73, 73);
+}
+.img_banner div{
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: 400;
+    font-size: 1.4vw;
+}
+.inner_body{
+    width: 100%;
+    padding: 0px 10%;
+    height: max-content;
+}
+
+.bold_800{
+    font-weight: 800;
+}
+
+/*----------showbox---------*/
+.showBox{
+    opacity: 0;
+    transform: translateY(10%);
+    transition:  all 1s ease-in-out;
+
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.3s;
+}
+.showBox.lv3{
+    transition-delay: 0.60s;
+}
+.showBox.lv4{
+    transition-delay: 0.90s;
+}
+.showBox.lv5{
+    transition-delay: 1.2s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
+}
+
+.history_contents{
+    width: 80%;
+    height: max-content;
+}
+.history_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.history_content:last-of-type{
+    margin-bottom: 10vw;
+}
+.year{
+    width: 35vw;
+    font-size: 2vw;
+    font-weight: 800;
+    color: #C8102E;
+}
+.left{
+    text-align: right;
+}
+.to_align{
+    display: flex;
+    justify-content: flex-end;
+}
+.center_line{
+    height: auto;
+    width: 1.6px;
+    background-color: #C8102E ;
+    margin: 0 2vw;
+    opacity: 1;
+    background-color: rgb(238, 238, 238);
+    transition: all 2s ease-in-out;
+}
+.history_content:first-of-type .center_line{
+    height: 3vw;
+    background-color: #C8102E;
+}
+.history_content:last-of-type .center_line{
+    height: 0.75vw;
+}
+.content_text{
+    width: 35vw;
+    padding-top: 0.75vw;
+    margin-bottom: 2vw;
+}
+.content_text h4{
+    font-size: 1vw;
+    margin-bottom: 1.5vw;
+}
+.content_text .content_img{
+    width: 25vw;
+    height: 15vw;
+    background-color: aqua;
+    margin-bottom: 1.5vw;
+}
+.dot{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 2vw;
+    position: absolute;
+    z-index: 1;
+    top: 0.75vw;
+    background-color: #C8102E;
+    transition: all 1s ease-in-out;
+}
