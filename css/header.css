@@ -17,7 +17,7 @@ header{
 
 .sub_header{
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(240, 240, 240, 0.8);
     z-index: 2;
     position: absolute;
     justify-content: center;
@@ -27,26 +27,26 @@ header{
     display: flex;
 }
 .left_header{
-    width: 15%;
+    width: 13%;
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 20px;
-    padding-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 5%;
 }
 .middle_header{
-    width: 70%;
+    width: 64%;
     display: flex;
     justify-content: center;
     
 }
 .right_header{
-    width: 15%;
+    width: 13%;
     display: flex;
     justify-content: right;
     margin-top: 30px;
     margin-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 5%;
 }
 .left_header >a{
     height: 100%;
