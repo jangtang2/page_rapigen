@@ -1,110 +1,93 @@
 .title_banner{
     width: 100%;
-    height: 300px;
-    margin-bottom: 5%;
+    height: 16vw;
+    margin-bottom: 2vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-    background-image: url("https://images.unsplash.com/photo-1599652749620-e45b7f38988e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    justify-content:end;
 }
-.title_banner >div{
-    color: white;
-    font-weight: 600;
-    font-size: 36px;
-    margin-left: 15%;
+.title_banner div:nth-of-type(1){
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 2.6vw;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.title_banner div:nth-of-type(2){
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+    font-size: 1vw;
+    margin-left: 5%;
+}
+.img_banner{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: rgb(38, 73, 73);
+}
+.img_banner div{
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: 400;
+    font-size: 1.4vw;
 }
 .inner_body{
     width: 100%;
-    padding: 0px 15%;
-}
-.title_section{
-    width: 70%;
-}
-.title_section h6{
-    font-size: 18px;
-    font-weight: 600;
-    margin: 2% 0%;
-}
-.introduction_section{
-    width: 70%;
-}
-.btn_section{
-    width: 100%;
-    display: flex;
-    margin-top: 5%;
-}
-.btn{
-    padding: 1% 2%;
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    border-style: solid;
-    border-color: #C8102E white;
-    border-width: 3px;
-}
-.btn:nth-of-type(1){
-    color: white;
-    background-color: #C8102E;
-    border-color: #C8102E;
-}
-.content_section{
-    width: 100%;
-    border-bottom: #C8102E solid 3px;
-    margin-bottom: 10%;
-    display: flex;
-    animation: fade-in 1s;
-}
-.text_section{
-    width: 67%;
-    height: 100%;
-    padding: 2% 3%;
-}
-.text_section h1{
-    font-size:24px;
-    color: #C8102E;
-}
-.text_section h2{
-    font-size: 18px;
-    font-weight: 600;
-    margin: 15px 0;
-}
-.text_section h3{
-    font-size: 16px;
-    font-weight: 600;
-    color: rgb(88, 88, 88);
-}
-.img_section{
-    width: 37%;
-    height: 50vh;
-    margin: 1% 0%;
-    background-size: cover;
-}
-.research1{
-    background-image: url("https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-.research2{
-    background-image: url("https://images.unsplash.com/photo-1579165466991-467135ad3110?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-.research3{
-    background-image: url("https://images.unsplash.com/photo-1628595351029-c2bf17511435?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-#screen2{
-    display: none;
-}
-#screen3{
-    display: none;
-}
-.eh2{
-    font-size: 18px;
+    padding: 0px 10%;
+    height: max-content;
 }
 
-@-webkit-keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+.bold_800{
+    font-weight: 800;
+}
+
+/*----------showbox---------*/
+.showBox{
+    opacity: 0;
+    transform: translateY(5%);
+    transition:  all 1s ease-in-out;
+
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.3s;
+}
+.showBox.lv3{
+    transition-delay: 0.60s;
+}
+.showBox.lv4{
+    transition-delay: 0.90s;
+}
+.showBox.lv5{
+    transition-delay: 1.2s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
+}
+.text_section{
+    width: 80%;
+    font-size: 1.8vw;
+    text-align: center;
+    font-weight: 600;
+    line-height: 2.5vw;
+    margin-bottom: 4vw;
+}
+.diagram_section{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.circle_line{
+    display: block;
+}
+.progress{
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
