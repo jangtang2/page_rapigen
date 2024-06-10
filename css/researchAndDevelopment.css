@@ -100,15 +100,19 @@
     font-size: 1.3vw;
     text-align: center;
 }
+.middle_text>h1:first-of-type{
+    margin-bottom: 0.5vw;
+}
 .middle_text>h1{
-    font-size: 2.5vw;
-    font-weight: 800;
+    font-size: 2.7vw;
+    font-weight:800;
     color:  #C8102E;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
 }
 .middle_text h5{
-    font-size: 1vw;
+    font-size: 1.2vw;
     color: rgb(168, 168, 168);
+    font-weight: 400;
 }
 .floating_section_box{
     position: absolute;
@@ -158,6 +162,7 @@
     font-size: 1.5vw;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: rgb(66, 66, 66);
 }
 .item img{
     width: 100%;
@@ -175,13 +180,15 @@
 .info_card{
     width: 25vw;
     height: 27vw;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(248, 248, 248);
+    border-radius: 0.5vw;
 }
 .info_card >h1{
     height: 3vw;
     font-size: 2vw;
     margin: auto 3vw;
     margin-top: 5vw;
+    color: #C8102E;
 }
 .info_card >h2{
     height: 5vw;
@@ -189,10 +196,14 @@
     margin: auto 3vw;
     margin-top: 1vw;
     overflow-wrap: break-word;
+    line-height: 1.5vw;
+    font-weight: 600;
+    color: rgb(92, 92, 92);
 }
 .info_card > .small_text{
-    font-size:0.9vw;
+    font-size:1vw;
     margin: auto 3vw;
     margin-top: 2vw;
     line-height: 1.5vw;
+    color: rgb(155, 155, 155);
 }
