@@ -100,7 +100,7 @@
     font-size: 1.3vw;
     text-align: center;
 }
-.middle_text h1{
+.middle_text>h1{
     font-size: 2.5vw;
     font-weight: 800;
     color:  #C8102E;
@@ -164,4 +164,35 @@
     height: 70%;
     object-fit: contain;
     transform: translateY(-10%);
+}
+.rnd_info_section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+}
+.info_card{
+    width: 25vw;
+    height: 27vw;
+    background-color: rgb(243, 243, 243);
+}
+.info_card >h1{
+    height: 3vw;
+    font-size: 2vw;
+    margin: auto 3vw;
+    margin-top: 5vw;
+}
+.info_card >h2{
+    height: 5vw;
+    font-size: 1.1vw;
+    margin: auto 3vw;
+    margin-top: 1vw;
+    overflow-wrap: break-word;
+}
+.info_card > .small_text{
+    font-size:0.9vw;
+    margin: auto 3vw;
+    margin-top: 2vw;
+    line-height: 1.5vw;
 }
