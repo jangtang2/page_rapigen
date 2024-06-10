@@ -82,12 +82,65 @@
 .diagram_section{
     width: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    position: relative;
 }
-.circle_line{
-    display: block;
+.circle_section{
+    margin: 0 auto;
 }
 .progress{
     transform-origin: center;
     transform: rotate(-90deg);
+}
+.middle_text{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.3vw;
+    text-align: center;
+}
+.middle_text h1{
+    font-size: 2.5vw;
+    font-weight: 800;
+    color:  #C8102E;
+    margin-bottom: 1vw;
+}
+.middle_text h5{
+    font-size: 1vw;
+    color: rgb(168, 168, 168);
+}
+.floating_section_box{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    top: 0;
+}
+.floating_section{
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+    z-index: 2;
+}
+.item{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-color: aqua;
+    transform: translate(-50%, -50%);
+    border-radius: 20vw;
+}
+.item1{
+    top: 10%;
+    left: 50%;
+}
+.item2{
+    top: 70%;
+    left: 85%;
+}
+.item3{
+    top:70%;
+    left: 15%;
 }
