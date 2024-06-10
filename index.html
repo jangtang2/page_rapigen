@@ -19,7 +19,6 @@
     * {
     margin: 0;
     padding: 0;
-    font-family: 'SUIT', sans-serif,!important;
 }
 
 body{
@@ -155,43 +154,38 @@ body{
     <script src="js/subHeader.js"></script>
 
     <div class="inner_body">
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                    <img src="img/index_inner1_background.jpeg">
-                    <div class="inner_text">
-                        <h1 class="big_inner showBox lv1 slow">Our Technology Leads the Future</h1>
-                        <h2 class="small_inner showBox lv3 slow">혁신적인 기술로 더 나은 미래를 만들어 갑니다.</h2>
+        <div class="photo-frame">
+            <div class="photos">
+                <div class="photo" id="photo1">
+                    <img src="img/index_inner3_background.png" alt="Photo 1">
+                    <div class="text-overlay">
+                        <div class="main_text">Innovationg for a Better Future</div>
+                        <div class="sub_text">최상의 솔루션으로 미래를 선도합니다.</div>
                     </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="img/index_inner2_background.png">
-                        <div class="inner_text">
-                            <h1 class="big_inner showBox lv1 slow">Healthy Tomorrows, Our Commitment</h1>
-                            <h2 class="small_inner showBox lv3 slow">인류의 건강한 내일을 위해 래피젠은 끊임없이 연구하겠습니다.</h2>
-                        </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="img/index_inner3_background.png">
-                        <div class="inner_text">
-                            <h1 class="big_inner showBox lv1 slow">Innovationg for a Better Future</h1>
-                            <h2 class="small_inner showBox lv3 slow">최상의 솔루션으로 미래를 선도합니다.</h2>
-                        </div>
-              </div>
-              ...
+                </div>
+                <div class="photo" id="photo2">
+                    <img src="img/index_inner1_background.jpeg" alt="Photo 2">
+                    <div class="text-overlay">
+                        <div class="main_text">Our Technology Leads the Future</div>
+                        <div class="sub_text">혁신적인 기술로 더 나은 미래를 만들어 갑니다.</div>
+                    </div>
+                </div>
+                <div class="photo" id="photo3">
+                    <img src="img/index_inner2_background.png" alt="Photo 3">
+                    <div class="text-overlay">
+                        <div class="main_text">Healthy Tomorrows, Our Commitment</div>
+                        <div class="sub_text">인류의 건강한 내일을 위해 래피젠은 끊임없이 연구하겠습니다.</div>
+                    </div>
+                </div>
             </div>
-            
-            <!-- 페이징 필요시 추가 -->
-            <div class="swiper-pagination"></div>
-            <!-- 이전, 다음 버튼 필요시 추가 
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>-->
-          
-            <!-- 스크롤 필요시 추가 
-            <div class="swiper-scrollbar"></div>-->
-        </div> 
+            <div class="buttons">
+                <button onclick="showPhoto(0)"></button>
+                <button onclick="showPhoto(1)"></button>
+                <button onclick="showPhoto(2)"></button>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
         <div class="product_section">
             <div class="white_space"> 
                 <h1 class="slide_title showBox">Products</h1>
