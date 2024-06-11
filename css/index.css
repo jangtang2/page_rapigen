@@ -513,7 +513,7 @@
 
 .text-overlay {
     position: absolute;
-    bottom: 25%;
+    bottom: 28%;
     transform:translateY(100%);
     color: white;
     font-size: 3rem;
@@ -523,7 +523,7 @@
 }
 .text-overlay div:nth-of-type(1){
     font-size:3.2vw;
-    margin-bottom: 1vw;
+    margin-bottom: 1.1vw;
     font-weight: 550;
 }
 .text-overlay div:nth-of-type(2){
