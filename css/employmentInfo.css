@@ -55,7 +55,7 @@
     color: #000000;
 }
 .title_section h6{
-    font-size: 18px;
+    font-size: 1.1vw;
     font-weight: 600;
     margin: 1% 0%;
 }
@@ -85,11 +85,11 @@
     color: white;
 }
 .job_title h1{
-    font-size: 24px;
+    font-size: 1.5vw;
     margin: 1% 3%;
 }
 .job_title img{
-    font-size: 24px;
+    font-size: 1.5vw;
     margin: 1% 3%;
 }
 .job_title h1>span{
@@ -111,22 +111,76 @@
     width: 30vw;
     background-color: rgb(241, 241, 241);
     padding: 3%;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 .detail_card h2{
-    font-size: 22px;
+    font-size: 1.4vw;
     font-weight: 600;
     margin-bottom: 5%;
 }
 .detail_card h3{
-    font-size: 18px;
+    font-size: 1.1vw;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.6vw;
 }
 #team1, #team2, #team3, #team4, #team5, #team6{
     display: none;
 }
-
+.process_section{
+    width: 70%;
+    margin-bottom: 10vw;
+}
+.process_section h1{
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 5vw;
+}
+.process_diagram{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    width: 15vw;
+}
+.num_coin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+.num_coin>div{
+    background-color: white;
+    color: #000000;
+    width: 1.6vw;
+    height: 1.6vw;
+    font-weight: 600;
+    font-size: 1vw;
+    border: #C8102E 2px solid;
+    border-radius: 5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.red_coin>div{
+    background-color: #C8102E;
+    color: white;
+}
+.process_text{
+    width: 100%;
+    text-align: center;
+}
+.main_text{
+    font-weight: 800;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+.sub_text{
+    font-size: 1vw;
+    color: #6b6b6b;
+}
 @-webkit-keyframes slide-in-left {
     0% {
       -webkit-transform: translateX(-300px);
@@ -138,4 +192,30 @@
               transform: translateX(0);
       opacity: 1;
     }
+}
+
+/*----------showbox---------*/
+.showBox{
+    opacity: 0;
+    transform: translateY(20%);
+    transition:  all 1s ease-in-out;
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.4s;
+}
+.showBox.lv3{
+    transition-delay: 0.80s;
+}
+.showBox.lv4{
+    transition-delay: 1.20s;
+}
+.showBox.lv5{
+    transition-delay: 1.6s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
 }
