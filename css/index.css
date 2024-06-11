@@ -46,14 +46,29 @@
 }
 
 /* ------------------second section-------------------*/
-
+.product_section{
+    height: 120svh;
+}
 .white_space{
-    height: 65svh;
+    height: 100%;
     width: 100%;
-    background-color: white;
+    position: relative;
+}
+.back_img{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.core{
+    height: 100%;
+    width: 100%;
     padding: 10% 15%;
 }
-
+.core.news{
+    background-color: white;
+}
 .slide_title{
     width: 70%;
     text-align: left;
