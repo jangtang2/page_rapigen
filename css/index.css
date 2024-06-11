@@ -53,12 +53,13 @@
     height: 100%;
     width: 100%;
     position: relative;
+    background-color: white;
 }
 .back_img{
     height: 100%;
     position: absolute;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     z-index: 0;
 }
 .core{
