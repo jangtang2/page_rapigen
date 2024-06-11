@@ -524,10 +524,10 @@
 .text-overlay div:nth-of-type(1){
     font-size:3.2vw;
     margin-bottom: 1vw;
-    font-weight: 650;
+    font-weight: 500;
 }
 .text-overlay div:nth-of-type(2){
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 .buttons {
     position: absolute;
