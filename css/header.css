@@ -17,7 +17,7 @@ header{
 
 .sub_header{
     width: 100%;
-    background-color: rgba(240, 240, 240, 0.8);
+    background-color: rgb(255, 255, 255);
     z-index: 2;
     position: absolute;
     justify-content: center;
@@ -131,20 +131,20 @@ ul li{
 }
 .sub_cate_list ul{
     display: flex;
-    margin: 1.25rem 0px;
-    font-weight: 600;
+    margin: 2vw 0px;
+    font-weight: 500;
 }
 .sub_cate_list ul li{
     margin-right: 1.25rem;
     color: rgb(41, 41, 41);
-    font-size: .875rem;
+    font-size: 1.1vw;
     width: 6.25rem;
     text-align: center;
     margin: 0px .625rem;
 }
 .sub_cate_list ul li a{
     text-align: left;
-    margin-bottom: .3125rem;
+    margin-bottom: 0.7vw;
     color: #646363;
 }
 #long_cate{
@@ -187,7 +187,7 @@ ul li{
 .prouct_type{
     height: 100%;
     color: black;
-    font-weight: 1000;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     flex-direction: column;
