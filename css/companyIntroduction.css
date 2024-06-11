@@ -272,7 +272,7 @@
     color:  #000000;
     font-size: 1.3vw;
     margin-bottom: 3%;
-    line-height: 1.8vw;
+    line-height: 2vw;
 }
 .greeting_section img{
     width: 45vw;
@@ -294,7 +294,7 @@
     width: 100%;
     font-size: 1.1vw;
     margin-bottom: 4.5vh;
-    line-height: 1.3vw;
+    line-height: 1.5vw;
     font-weight: 500;
 }
 .greeting_body > p:first-of-type{
