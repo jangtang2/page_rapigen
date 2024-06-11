@@ -12,7 +12,7 @@ const team4 = document.getElementById("team4");
 const team5 = document.getElementById("team5");
 const team6 = document.getElementById("team6");
 
-const toggle1 = document.getElementById("toggle1");
+var toggle1 = document.getElementById("toggle1");
 const toggle2 = document.getElementById("toggle2");
 const toggle3 = document.getElementById("toggle3");
 const toggle4 = document.getElementById("toggle4");
@@ -23,7 +23,7 @@ function btn1Clicked(){
     if(btn1.classList.contains('active')){
         btn1.classList.remove('active');
         team1.style.display='none';
-        toggle1.innerText='+';
+        toggle1.src = 'img/keyboard_arrow_down.svg';
     }
     else{
         btn1.classList.add('active');
@@ -40,19 +40,19 @@ function btn1Clicked(){
         team5.style.display='none';
         team6.style.display='none';
 
-        toggle1.innerText='-';
-        toggle2.innerText='+';
-        toggle3.innerText='+';
-        toggle4.innerText='+';
-        toggle5.innerText='+';
-        toggle6.innerText='+';
+        toggle1.src = 'img/keyboard_arrow_up.svg';
+        toggle2.src = 'img/keyboard_arrow_down.svg';
+        toggle3.src = 'img/keyboard_arrow_down.svg';
+        toggle4.src = 'img/keyboard_arrow_down.svg';
+        toggle5.src = 'img/keyboard_arrow_down.svg';
+        toggle6.src = 'img/keyboard_arrow_down.svg';
     }
 }
 function btn2Clicked(){
     if(btn2.classList.contains('active')){
         btn2.classList.remove('active');
         team2.style.display='none';
-        toggle2.innerText='+';
+        toggle2.src = 'img/keyboard_arrow_down.svg';
     }
     else{
         btn2.classList.add('active');
@@ -69,19 +69,19 @@ function btn2Clicked(){
         team5.style.display='none';
         team6.style.display='none';
 
-        toggle2.innerText='-';
-        toggle1.innerText='+';
-        toggle3.innerText='+';
-        toggle4.innerText='+';
-        toggle5.innerText='+';
-        toggle6.innerText='+';
+        toggle2.src = 'img/keyboard_arrow_up.svg';
+        toggle1.src = 'img/keyboard_arrow_down.svg';
+        toggle3.src = 'img/keyboard_arrow_down.svg';
+        toggle4.src = 'img/keyboard_arrow_down.svg';
+        toggle5.src = 'img/keyboard_arrow_down.svg';
+        toggle6.src = 'img/keyboard_arrow_down.svg';
     }
 }
 function btn3Clicked(){
     if(btn3.classList.contains('active')){
         btn3.classList.remove('active');
         team3.style.display='none';
-        toggle3.innerText='+';
+        toggle3.src = 'img/keyboard_arrow_down.svg';
     }
     else{
         btn3.classList.add('active');
@@ -98,19 +98,19 @@ function btn3Clicked(){
         team5.style.display='none';
         team6.style.display='none';
 
-        toggle3.innerText='-';
-        toggle2.innerText='+';
-        toggle1.innerText='+';
-        toggle4.innerText='+';
-        toggle5.innerText='+';
-        toggle6.innerText='+';
+        toggle3.src = 'img/keyboard_arrow_up.svg';
+        toggle2.src = 'img/keyboard_arrow_down.svg';
+        toggle1.src = 'img/keyboard_arrow_down.svg';
+        toggle4.src = 'img/keyboard_arrow_down.svg';
+        toggle5.src = 'img/keyboard_arrow_down.svg';
+        toggle6.src = 'img/keyboard_arrow_down.svg';
     }
 }
 function btn4Clicked(){
     if(btn4.classList.contains('active')){
         btn4.classList.remove('active');
         team4.style.display='none';
-        toggle4.innerText='+';
+        toggle4.src = 'img/keyboard_arrow_down.svg';
     }
     else{
         btn4.classList.add('active');
@@ -127,19 +127,19 @@ function btn4Clicked(){
         team5.style.display='none';
         team6.style.display='none';
 
-        toggle4.innerText='-';
-        toggle2.innerText='+';
-        toggle3.innerText='+';
-        toggle1.innerText='+';
-        toggle5.innerText='+';
-        toggle6.innerText='+';
+        toggle4.src = 'img/keyboard_arrow_up.svg';
+        toggle2.src = 'img/keyboard_arrow_down.svg';
+        toggle3.src = 'img/keyboard_arrow_down.svg';
+        toggle1.src = 'img/keyboard_arrow_down.svg';
+        toggle5.src = 'img/keyboard_arrow_down.svg';
+        toggle6.src = 'img/keyboard_arrow_down.svg';
     }
 }
 function btn5Clicked(){
     if(btn5.classList.contains('active')){
         btn5.classList.remove('active');
         team5.style.display='none';
-        toggle5.innerText='+';
+        toggle5.src = 'img/keyboard_arrow_down.svg';
     }
     else{
         btn5.classList.add('active');
@@ -156,19 +156,19 @@ function btn5Clicked(){
         team1.style.display='none';
         team6.style.display='none';
 
-        toggle5.innerText='-';
-        toggle2.innerText='+';
-        toggle3.innerText='+';
-        toggle4.innerText='+';
-        toggle1.innerText='+';
-        toggle6.innerText='+';
+        toggle5.src = 'img/keyboard_arrow_up.svg';
+        toggle2.src = 'img/keyboard_arrow_down.svg';
+        toggle3.src = 'img/keyboard_arrow_down.svg';
+        toggle4.src = 'img/keyboard_arrow_down.svg';
+        toggle1.src = 'img/keyboard_arrow_down.svg';
+        toggle6.src = 'img/keyboard_arrow_down.svg';
     }
 }
 function btn6Clicked(){
     if(btn6.classList.contains('active')){
         btn6.classList.remove('active');
         team6.style.display='none';
-        toggle6.innerText='+';
+        toggle6.src = 'img/keyboard_arrow_down.svg';
     }
     else{
         btn6.classList.add('active');
@@ -185,12 +185,12 @@ function btn6Clicked(){
         team5.style.display='none';
         team1.style.display='none';
 
-        toggle6.innerText='-';
-        toggle2.innerText='+';
-        toggle3.innerText='+';
-        toggle4.innerText='+';
-        toggle5.innerText='+';
-        toggle1.innerText='+';
+        toggle6.src = 'img/keyboard_arrow_up.svg';
+        toggle2.src = 'img/keyboard_arrow_down.svg';
+        toggle3.src = 'img/keyboard_arrow_down.svg';
+        toggle4.src = 'img/keyboard_arrow_down.svg';
+        toggle5.src = 'img/keyboard_arrow_down.svg';
+        toggle1.src = 'img/keyboard_arrow_down.svg';
     }
 }
 
