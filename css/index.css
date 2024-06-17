@@ -202,7 +202,7 @@
     height: 50%;
 }
 .card:hover{
-    background: radial-gradient(circle at right top, yellow, orange);
+    background: radial-gradient(circle at right top, orange, #C8102E);
 }
 .card:hover  h2{
     color: white;
