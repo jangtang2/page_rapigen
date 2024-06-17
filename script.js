@@ -3,24 +3,42 @@ const photos = document.querySelectorAll('.photo');
 const totalPhotos = photos.length;
 
 function showPhoto(index) {
-    photos[currentPhotoIndex].style.opacity = 0;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.opacity = 0;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.transform = 'translateY(100%)';
+    hideCurrentPhoto();
     currentPhotoIndex = index;
-    photos[currentPhotoIndex].style.opacity = 1;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.opacity = 1;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.transform = 'translateY(0)';
+    showCurrentPhoto();
     resetTimer();
 }
 
 function showNextPhoto() {
-    photos[currentPhotoIndex].style.opacity = 0;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.opacity = 0;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.transform = 'translateY(100%)';
+    hideCurrentPhoto();
     currentPhotoIndex = (currentPhotoIndex + 1) % totalPhotos;
-    photos[currentPhotoIndex].style.opacity = 1;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.opacity = 1;
-    photos[currentPhotoIndex].querySelector('.text-overlay').style.transform = 'translateY(0)';
+    showCurrentPhoto();
+}
+
+function hideCurrentPhoto() {
+    const currentPhoto = photos[currentPhotoIndex];
+    currentPhoto.style.opacity = 0;
+    const mainText = currentPhoto.querySelector('.main_text');
+    const subText = currentPhoto.querySelector('.sub_text');
+    mainText.style.opacity = 0;
+    mainText.style.transform = 'translateY(60%)';
+    subText.style.opacity = 0;
+    subText.style.transform = 'translateY(60%)';
+}
+
+function showCurrentPhoto() {
+    const currentPhoto = photos[currentPhotoIndex];
+    currentPhoto.style.opacity = 1;
+    const mainText = currentPhoto.querySelector('.main_text');
+    const subText = currentPhoto.querySelector('.sub_text');
+    setTimeout(() => {
+        mainText.style.opacity = 1;
+        mainText.style.transform = 'translateY(0)';
+    }, 200); // Delay for the main_text
+    setTimeout(() => {
+        subText.style.opacity = 1;
+        subText.style.transform = 'translateY(0)';
+    }, 1000); // Additional delay for the sub_text
 }
 
 let intervalId = setInterval(showNextPhoto, 5000);
@@ -31,6 +49,4 @@ function resetTimer() {
 }
 
 // Initialize the first photo
-photos[currentPhotoIndex].style.opacity = 1;
-photos[currentPhotoIndex].querySelector('.text-overlay').style.opacity = 1;
-photos[currentPhotoIndex].querySelector('.text-overlay').style.transform = 'translateY(0)';
+showCurrentPhoto();
