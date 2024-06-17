@@ -187,7 +187,7 @@
     left: 2vw;
 }
 .card > img{
-    width: 5vw;
+    height: 5vw;
     position: absolute;
     bottom: 2vw;
     right: 2vw;
@@ -219,9 +219,13 @@
 /* ------------------third section-------------------*/
 .RnD_section{
     height: 105svh;
-    background-image: url("../img/index_rnd_background.jpeg");
-    background-size: cover;
-    background-position: center;
+    background-color: white;
+    padding-top: 15vw;
+}
+.back_box{
+    width: 60%;
+    height: 50%;
+    background: radial-gradient(circle at right top, orange, #C8102E);
 }
 .silk{
     width:100%;

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 353.8 299.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: white;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 7.5px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M200,195.9v42.1c0,10.8-8.7,19.5-19.5,19.5h-4.7c-10.8,0-19.5-8.7-19.5-19.5v-42.1h43.7Z"/>
+  <polyline class="cls-1" points="156.3 89.4 156.3 195.9 200 195.9 200 89.4"/>
+  <polyline class="cls-1" points="200 64.7 200 30 200 30 156.3 30 156.3 30 156.3 64.7"/>
+  <path class="cls-1" d="M280.4,111.5v126.6c0,10.8-8.7,19.5-19.5,19.5h-4.7c-10.8,0-19.5-8.7-19.5-19.5v-126.6h43.7Z"/>
+  <polyline class="cls-1" points="236.7 89.4 236.7 111.5 280.5 111.5 280.5 89.4"/>
+  <polyline class="cls-1" points="280.5 64.7 280.5 30 280.5 30 236.7 30 236.7 30 236.7 64.7"/>
+  <path class="cls-1" d="M119.5,111.5v126.6c0,10.8-8.7,19.5-19.5,19.5h-4.7c-10.8,0-19.5-8.7-19.5-19.5v-126.6h43.7Z"/>
+  <polyline class="cls-1" points="75.8 89.4 75.8 111.5 119.5 111.5 119.5 89.4"/>
+  <polyline class="cls-1" points="119.5 64.7 119.5 30 119.5 30 75.8 30 75.8 30 75.8 64.7"/>
+  <rect class="cls-1" x="66.3" y="10.8" width="62.7" height="19.2" rx="4.2" ry="4.2"/>
+  <rect class="cls-1" x="146.8" y="10.8" width="62.7" height="19.2" rx="4.2" ry="4.2"/>
+  <rect class="cls-1" x="227.2" y="10.8" width="62.7" height="19.2" rx="4.2" ry="4.2"/>
+  <rect class="cls-1" x="14.3" y="258.4" width="327.6" height="28.3" rx="7.7" ry="7.7"/>
+  <line class="cls-1" x1="37.7" y1="89.4" x2="37.7" y2="258.4"/>
+  <rect class="cls-1" x="165.8" y="-81.4" width="24.7" height="316.9" rx="7.2" ry="7.2" transform="translate(255.2 -101.1) rotate(90)"/>
+</svg>
