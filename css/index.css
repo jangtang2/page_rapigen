@@ -65,13 +65,13 @@
 .core{
     height: 100%;
     width: 100%;
-    padding: 10% 15%;
+    padding: 10% 10%;
 }
 .core.news{
     background-color: white;
 }
 .slide_title{
-    width: 70%;
+    width: 80%;
     text-align: left;
     font-size: 1.1vw;
     font-weight: 400;
@@ -83,7 +83,7 @@
 }
 .slide_sub_title{
     font-size: 1.9vw;
-    width: 70%;
+    width: 80%;
     text-align: left;
     line-height: 3vw;
     margin-bottom: 3%;
@@ -109,7 +109,7 @@
 }
 
 .card_set{
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content:space-between;
 }
@@ -117,7 +117,7 @@
     margin-top: 1.5%;
 }
 .prod_card{
-    width: 16svw;
+    width: 18svw;
     height: 24svw;
     margin: 0px 0px;
     background-size: cover;
@@ -195,7 +195,7 @@
     text-align: center;
 }
 .icon_section{
-    width: 70%;
+    width: 80%;
     height: 40%;
     margin-top: 5%;
     display: flex;
@@ -314,7 +314,7 @@
     width: 100%;
     font-size: 1.2vw;
     text-align: left;
-    font-weight: 800;
+    font-weight: 600;
     overflow : hidden;
     text-overflow: ellipsis;
     white-space:nowrap;
@@ -333,7 +333,7 @@
     -webkit-box-orient: vertical;
 }
 .view_more{
-    width: 70%;
+    width: 80%;
     font-size: 1vw;
     display: flex;
     justify-content: end;
@@ -369,7 +369,7 @@
 .content_row{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     
 }
 
@@ -519,7 +519,7 @@
     font-size: 3rem;
     opacity: 0;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-    margin-left: 6vw;
+    margin-left: 10vw;
 }
 .text-overlay div:nth-of-type(1){
     font-size:3.2vw;
