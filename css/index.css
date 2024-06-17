@@ -63,12 +63,17 @@
     z-index: 0;
 }
 .core{
+    position: absolute;
     height: 100%;
     width: 100%;
     padding: 10% 10%;
+    z-index: 1;
 }
 .core.news{
     background-color: white;
+}
+.core.prod{
+    display: flex;
 }
 .slide_title{
     width: 80%;
@@ -77,6 +82,9 @@
     font-weight: 400;
     color: #C8102E;
     margin-bottom: 2%;
+}
+.text_zone .slide_title{
+    width: 100%;
 }
 .slide_title span{
     font-weight: 200;
@@ -107,74 +115,107 @@
 .slide_sub_title span p{
     font-weight: 800;
 }
+.text_zone{
+    width: 40%;
 
-.card_set{
-    width: 80%;
+}
+.card_zone{
+    width: 40%;
     display: flex;
-    justify-content:space-between;
 }
-.card_set:nth-of-type(1){
-    margin-top: 1.5%;
+.text_zone h2{
+    font-size: 3vw;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    line-height: 4vw;
 }
-.prod_card{
-    width: 18svw;
-    height: 24svw;
-    margin: 0px 0px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    background-color: black;
+.text_zone h5{
+    font-size: 1.3vw;
+    line-height: 2vw;
+    font-weight: 400;
+    margin-bottom: 20%;
 }
-
-.prod_title{
-    height: 100%;
+.text_zone>a{
+    display: flex;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.text_zone>a>div{
+    width: 1.2vw;
+    height: 1.2vw;
+    border: #C8102E solid 1px;
+    border-radius: 2vw;
+    margin-left: 1%;
+    text-align: center;
+}
+.cards{
+    width: 40%;
+    margin-left: 10%;
+}
+.card{
     width: 100%;
-    color:white;
+    height: 16vw;
+    margin-bottom: 2.5vw;
+    border-radius: 0 2vw 0 2vw;
+    background-color: white;
+    box-shadow: 0.3vw 0.3vw 5px rgba(211, 211, 211, 0.5), -0.3vw -0.3vw 5px rgba(211, 211, 211, 0.5);
+    padding-top: 2vw;
+    position: relative;
 }
-.prod_title div:nth-of-type(1){
-    height: 75%;
-    width: 100%;
-   
+.card_title{
+    color: #C8102E;
+    font-size: 1.3vw;
+    margin-left: 2vw;
 }
-.prod_title div:nth-of-type(2){
-    text-align: left;
-    padding: 0 10%;
+.card_sub{
+    font-size: 1vw;
+    color: #646363;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    font-weight: 400;
+}
+.card_btn{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 3vw;
+    background-color: #646363;
+    color: white;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 2vw;
+    left: 2vw;
+}
+.card > img{
+    width: 5vw;
+    position: absolute;
+    bottom: 2vw;
+    right: 2vw;
+}
+.card> div{
     display: flex;
     flex-direction: column;
-    word-break: keep-all;
+    justify-content: center;
 }
-.prod_title div:nth-of-type(2) span:nth-of-type(1){
-    font-size: 1.1vw;
-    font-weight: 600;
-    margin-bottom: 5%;
+.card >div> img{
+    width: 100%;
+    height: 50%;
 }
-.prod_title div:nth-of-type(2) span:nth-of-type(2){
-    font-size: 0.9vw;
-    font-weight: 300;
+.card:hover{
+    background: radial-gradient(circle at right top, yellow, orange);
 }
-.prod_title:hover{
-    background-color: rgba(0, 0, 0, 0.7);
-    transition: all 1s;
+.card:hover  h2{
+    color: white;
 }
-#prod_covid{
-    background-image: url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.card:hover  h3{
+    color: white;
 }
-#prod_human{
-    background-image: url("../img/human_prod.jpeg");
+.card:hover .card_btn{
+    background-color: white;
 }
-#prod_animal{
-    background-image: url("../img/animal_prod.jpeg");
+.empty_box{
+    height: 5vw;
 }
-#prod_etc{
-    background-image: url("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-#prod_life{
-    background-image: url("../img/life_prod.jpeg");
-}
-#prod_clinical{
-    background-image: url("../img/clinical_prod.jpeg");
-}
-
 /* ------------------third section-------------------*/
 .RnD_section{
     height: 105svh;
@@ -517,7 +558,7 @@
 .text-overlay {
     position: absolute;
     bottom: 25%;
-    left: 6vw;
+    left: 9vw;
     color: white;
     text-align: left;
 }
@@ -559,3 +600,4 @@
 .buttons button:hover {
     background-color: #555;
 }
+
