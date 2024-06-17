@@ -18,6 +18,8 @@ function showNextPhoto() {
 function hideCurrentPhoto() {
     const currentPhoto = photos[currentPhotoIndex];
     currentPhoto.style.opacity = 0;
+    const img = currentPhoto.querySelector('img');
+    img.style.transform = 'scale(1)';
     const mainText = currentPhoto.querySelector('.main_text');
     const subText = currentPhoto.querySelector('.sub_text');
     mainText.style.opacity = 0;
@@ -29,6 +31,10 @@ function hideCurrentPhoto() {
 function showCurrentPhoto() {
     const currentPhoto = photos[currentPhotoIndex];
     currentPhoto.style.opacity = 1;
+    const img = currentPhoto.querySelector('img');
+    setTimeout(() => {
+        img.style.transform = 'scale(1.1)';
+    }, 200); // Delay to start the zoom effect
     const mainText = currentPhoto.querySelector('.main_text');
     const subText = currentPhoto.querySelector('.sub_text');
     setTimeout(() => {
@@ -41,11 +47,11 @@ function showCurrentPhoto() {
     }, 1000); // Additional delay for the sub_text
 }
 
-let intervalId = setInterval(showNextPhoto, 5000);
+let intervalId = setInterval(showNextPhoto, 7000);
 
 function resetTimer() {
     clearInterval(intervalId);
-    intervalId = setInterval(showNextPhoto, 5000);
+    intervalId = setInterval(showNextPhoto, 7000);
 }
 
 // Initialize the first photo
