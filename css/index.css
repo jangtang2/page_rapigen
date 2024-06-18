@@ -381,20 +381,17 @@
 .news_block1{
     width: 50%;
     height: 50svh;
-    margin: 0px 1%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     border-top: solid .0625rem #C8102E;
     padding-top: 0.6vw;
 }
-.news_block1:nth-of-type(1){
+.news_block1.lv1{
     
-    margin-left: 0px;
-}
-.news_block1:nth-of-type(2){
+    margin-left: 0;
+    margin-right: 1%;
 
-    margin-right: 0px;
 }
 .news_block2:nth-of-type(1){
     height: 50%;
