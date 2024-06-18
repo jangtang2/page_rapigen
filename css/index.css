@@ -650,5 +650,8 @@
     color: #C8102E;
 }
 .red_text{
-    color: #C8102E
+    color: #C8102E;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
