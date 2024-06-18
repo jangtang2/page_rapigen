@@ -19,12 +19,18 @@ footer.main_footer{
     justify-content: space-between;
 }
 .left_footer{
-    width: 85%;
+    width: 65%;
     height: 100%;
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+.middle_footer{
+    width: 15%;
+    height: 100%;
+    position: relative;
+    margin-right: 5%;
 }
 .right_footer{
     width: 15%;
@@ -51,12 +57,12 @@ footer.main_footer{
     height: 10%;
     display: flex;
     font-size: 1.4vw;
-    justify-content: right;
-    margin-top: 70%;
+    justify-content: left;
+    margin: 1vw 0vw;
 }
 .sns_zone a{
-    height: 20%;
-    margin-left: 1.5vw;
+    height: 1%;
+    margin-right: 1.5vw;
 }
 .sns_zone img{
     height: 1.8vw;
