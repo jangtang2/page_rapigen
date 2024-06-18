@@ -316,7 +316,7 @@
 }
 .circle_section{
     position: absolute;
-    top: -120%;
+    top: -90%;
     right: -40%;
     z-index: -1;
 }
