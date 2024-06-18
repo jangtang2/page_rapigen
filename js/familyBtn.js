@@ -1,4 +1,4 @@
-const button = document.querySelector('button');
+const button = document.querySelector('.drop');
 const dropdown = document.getElementById('dropdown');
 var toggle =1;
 function show(){
@@ -14,4 +14,4 @@ function hide(){
     dropdown.style.display = 'none';
 }
 button.addEventListener('click', show);
-button.addEventListener("blur", hide);
+button.addEventListener('blur', hide);
