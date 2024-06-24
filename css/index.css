@@ -56,12 +56,14 @@
     background-color: white;
 }
 .back_img{
-    height: 100%;
+    height: 80%;
     position: absolute;
     width: 60%;
     object-fit: contain;
     z-index: 0;
-    left: -10vw;
+    left: -8vw;
+    top: 40%;
+    opacity: 30%;
 }
 .core{
     position: absolute;
