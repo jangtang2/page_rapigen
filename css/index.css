@@ -140,17 +140,23 @@
     margin-bottom: 20%;
 }
 .text_zone>a{
+    width: 100%;
     display: flex;
     font-weight: 500;
     font-size: 1vw;
 }
 .text_zone>a>div{
-    width: 1vw;
-    height: 1vw;
-    border: #C8102E solid 1px;
+    height: 5vw;
     border-radius: 2vw;
-    margin-left: 1%;
+    margin-right: 1%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.VM_icon{
+    height: 1.5vw;
+    width: 1.5vw;
 }
 .cards{
     width: 40%;
@@ -193,7 +199,7 @@
     width: 2vw;
     height: 2vw;
     border-radius: 3vw;
-    background-color: #646363;
+    background-color: #bebebe;
     color: white;
     align-content: center;
     text-align: center;

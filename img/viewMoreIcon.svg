@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #c0011f;
+        stroke-width: .5px;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #c0011f;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_타원_53" data-name="타원 53">
+    <circle class="cls-4" cx="16" cy="16" r="16"/>
+    <circle class="cls-1" cx="16" cy="16" r="15.75"/>
+  </g>
+  <g id="_" data-name=" " class="cls-2">
+    <g class="cls-2">
+      <path class="cls-3" d="M14.94,16.37H6.27v-2.16h8.67V5.49h2.16v8.71h8.71v2.16h-8.71v8.71h-2.16v-8.71Z"/>
+    </g>
+  </g>
+</svg>
