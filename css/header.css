@@ -154,6 +154,10 @@ ul li{
     font-weight: 800;
     color: black;
 }
+#sub_cate6 li:last-of-type{
+    white-space: nowrap;    /* 텍스트를 한 줄로 유지 */
+    overflow:visible;  
+}
 .category >ul > li>ul{
     display: none;
     position: absolute;
