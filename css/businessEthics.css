@@ -1,3 +1,82 @@
+.banner_section{
+    width: 100vw;
+    height: 35vw;
+    position: relative;
+    margin-bottom: 10vw;
+}
+.banner_back{
+    height: 100%;
+    width: 100%;
+    background-color: #C8102E;
+    position: absolute;
+
+}
+.banner_back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner_front{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.front_text{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.big_title,.root_title{
+    text-align: center;
+    color: white;
+    
+}
+.big_title{
+    font-size: 4vw;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.root_title{
+    width: 100%;
+    font-size: 1vw;
+    justify-content: center;
+    display: flex;
+}
+.root_title > .root_inner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.2vw;
+}
+.root_title img{
+    height: 1vw;
+}
+.front_btn_list{
+    height: 15%;
+    width: 100%;
+    background-color: #44548096;
+    display: flex;
+    justify-content: center;
+}
+.front_btn_list >a{
+    height: 100%;
+    width: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+}
+.front_btn_list > .active{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
 .title_banner{
     width: 100%;
     height: 300px;
@@ -32,16 +111,17 @@
     width: 100%;
 }
 .text_on_img h1{
-    color:white;
+    width: 100%;
+    color:black;
     margin-bottom: 2%;
-    background-color: #C8102E;
-    padding : 5px 20px;
+    text-align: center;
 }
 .text_on_img div{
     color: black;
     font-weight: 600;
     font-size: 18px ;
     line-height: 40px;
+    text-align: center;
 }
 .summary_section{
     width: 70%;
@@ -98,4 +178,29 @@
 }
 .middle_text{
     margin: 3% 0%;
+}
+/*----------showbox---------*/
+.showBox{
+    opacity: 0;
+    transform: translateY(20%);
+    transition:  all 1s ease-in-out;
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.3s;
+}
+.showBox.lv3{
+    transition-delay: 0.60s;
+}
+.showBox.lv4{
+    transition-delay: 0.90s;
+}
+.showBox.lv5{
+    transition-delay: 1.2s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
 }
