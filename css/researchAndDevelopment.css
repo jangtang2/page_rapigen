@@ -52,6 +52,9 @@
     justify-content: center;
     margin: 0 1.2vw;
 }
+.root_inner:first-of-type{
+    margin: 0%;
+}
 .root_title img{
     height: 1vw;
 }

@@ -37,9 +37,11 @@
 .big_title{
     font-size: 4vw;
     font-weight: 600;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    margin-top: 2%;
 }
 .root_title{
+    height: 1.5vw;
     width: 100%;
     font-size: 1vw;
     justify-content: center;
@@ -50,10 +52,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 1.2vw;
 }
-.root_title img{
+.root_inner > img{
+    height: 0.8vw;
+}
+.root_inner > .homeI{
     height: 1vw;
+    width: 1vw;
+}
+.root_inner.arrow{
+    margin: 0 1vw;
 }
 .front_btn_list{
     height: 15%;
@@ -325,4 +333,29 @@ th img{
 }
 .member{
     background-image: url("https://images.unsplash.com/photo-1483428400520-675ef69a3bc4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+/*----------showbox---------*/
+.showBox{
+    opacity: 0;
+    transform: translateY(20%);
+    transition:  all 1s ease-in-out;
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.3s;
+}
+.showBox.lv3{
+    transition-delay: 0.60s;
+}
+.showBox.lv4{
+    transition-delay: 0.90s;
+}
+.showBox.lv5{
+    transition-delay: 1.2s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
 }
