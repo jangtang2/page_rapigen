@@ -77,57 +77,13 @@
     border: 1px solid white;
     color: black;
 }
-.title_banner{
-    width: 100%;
-    height: 16vw;
-    margin-bottom: 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content:end;
-}
-.title_banner div:nth-of-type(1){
-    color: rgb(0, 0, 0);
-    font-weight: 800;
-    font-size: 2.6vw;
-    margin-left: 5%;
-    margin-bottom: 1%;
-}
-.title_banner div:nth-of-type(2){
-    color: rgb(128, 128, 128);
-    font-weight: 400;
-    font-size: 1vw;
-    margin-left: 5%;
-}
-.img_banner{
-    position: relative;
-    width: 100%;
-    height: 40%;
-    margin-bottom: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    background-color: rgb(38, 73, 73);
-}
-.img_banner div{
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-    font-size: 1.4vw;
-}
-.img_banner img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 .inner_body{
     width: 100%;
-    padding: 0px 15%;
+    padding: 0px 10%;
 }
 .intro_section{
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -154,13 +110,13 @@
 }
 .saperate_bar{
     height: 1px;
-    width: 80%;
+    width: 90%;
     transform: translatex(-5%);
     background-color: #e4e4e4;
     margin: 5% 0%;
 }
 .ci_section{
-    width: 70%;
+    width: 80%;
 }
 .logo_section{
     width: 100%;
@@ -276,10 +232,6 @@ th img{
 }
 .bg_white{
     background-color: white;
-}
-h2{
-    margin-top: 5%;
-    font-size: 22px;
 }
 .vision_cards{
     margin-top:5%;
