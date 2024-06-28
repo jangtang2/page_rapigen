@@ -157,3 +157,28 @@
     width: 100%;
     height: 100%;
 }
+/*----------showbox---------*/
+.showBox{
+    opacity: 0;
+    transform: translateY(20%);
+    transition:  all 1s ease-in-out;
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.3s;
+}
+.showBox.lv3{
+    transition-delay: 0.60s;
+}
+.showBox.lv4{
+    transition-delay: 0.90s;
+}
+.showBox.lv5{
+    transition-delay: 1.2s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
+}
