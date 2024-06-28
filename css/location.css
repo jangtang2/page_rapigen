@@ -64,6 +64,7 @@
     margin: 0 1vw;
 }
 .front_btn_list{
+    backdrop-filter: blur(3px);
     height: 15%;
     width: 100%;
     background-color: #44548096;

@@ -37,9 +37,11 @@
 .big_title{
     font-size: 4vw;
     font-weight: 600;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    margin-top: 2%;
 }
 .root_title{
+    height: 1.5vw;
     width: 100%;
     font-size: 1vw;
     justify-content: center;
@@ -50,15 +52,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 1.2vw;
 }
-.root_inner:first-of-type{
-    margin: 0%;
+.root_inner > img{
+    height: 0.8vw;
 }
-.root_title img{
+.root_inner > .homeI{
     height: 1vw;
+    width: 1vw;
+}
+.root_inner.arrow{
+    margin: 0 1vw;
 }
 .front_btn_list{
+    backdrop-filter: blur(3px);
     height: 15%;
     width: 100%;
     background-color: #44548096;
