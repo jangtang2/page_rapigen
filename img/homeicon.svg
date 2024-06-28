@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.96 9.95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: white;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.01px;
+      }
+    </style>
+  </defs>
+  <path id="_패스_373" data-name=" 패스 373" class="cls-1" d="M1.5,4.99h-.99L4.98.5l4.48,4.48h-.99"/>
+  <path id="_패스_374" data-name=" 패스 374" class="cls-1" d="M1.51,4.97v3.48c0,.55.45.99.99.99h4.97c.55,0,.99-.45.99-.99v-3.48"/>
+  <path id="_패스_375" data-name=" 패스 375" class="cls-1" d="M3.49,9.35v-2.98c0-.55.45-.99.99-.99h.99c.55,0,.99.45.99.99v2.98"/>
+</svg>
