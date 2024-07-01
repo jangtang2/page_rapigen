@@ -1,3 +1,91 @@
+.banner_section{
+    width: 100vw;
+    height: 35vw;
+    position: relative;
+    margin-bottom: 10vw;
+}
+.banner_back{
+    height: 100%;
+    width: 100%;
+    background-color: #C8102E;
+    position: absolute;
+
+}
+.banner_back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner_front{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.front_text{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.big_title,.root_title{
+    text-align: center;
+    color: white;
+    
+}
+.big_title{
+    font-size: 4vw;
+    font-weight: 600;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+.root_title{
+    height: 1.5vw;
+    width: 100%;
+    font-size: 1vw;
+    justify-content: center;
+    display: flex;
+}
+.root_title > .root_inner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.root_inner > img{
+    height: 0.8vw;
+}
+.root_inner > .homeI{
+    height: 1vw;
+    width: 1vw;
+}
+.root_inner.arrow{
+    margin: 0 1vw;
+}
+.front_btn_list{
+    backdrop-filter: blur(3px);
+    height: 15%;
+    width: 100%;
+    background-color: #44548096;
+    display: flex;
+    justify-content: center;
+}
+.front_btn_list >a{
+    height: 100%;
+    width: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+}
+.front_btn_list > .active{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
 .title_banner{
     width: 100%;
     height: 300px;
@@ -16,38 +104,44 @@
     margin-left: 15%;
 }
 .inner_body{
-    width: 100%;
-    padding: 0px 15%;
+    width: 80%;
+    padding: 0px 10%;
 }
 .title_section{
-    width: 70%;
-    margin-bottom: 5%;
+    width: 100%;
+    margin-bottom: 8vw;
 }
-.second_line{
+.title_line{
     display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+.title_line:first-of-type{
+    font-weight: 800;
+    margin-bottom: 1vw;
 }
 .red_text{
     color: #C8102E;
 }
 .card_section{
-    width: 70%;
+    width: 100%;
+    height: 10vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 5%;
 }
 .card{
-    width: 28%;
+    width: 10vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: 1px solid #C8102E;
-    border-radius: 40px;
+    align-items: center;
 }
 .card i{
     height: 60%;
-    margin-top: 7vh;
-    margin-bottom: 10%;
+    margin:2vw 2vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -59,19 +153,26 @@
     font-size: 100px;
 }
 .card h6{
-    font-size: 14px;
-    color: rgb(182, 182, 182);
+    font-size: 1.3vw;
+    color: #C8102E;
 }
 .card h4{
-    font-size: 22px;
-    margin-top:5%; 
-    margin-bottom: 7vh;
+    font-size: 1.3vw;
+    text-align: center;
+    overflow: visible;
+    white-space: nowrap;
 }
-.arrow{
+.between{
+    height: 100%;
+    width: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #C8102E;
+}
+.between>div{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
 }
 .upper_dot{
     width: 15px;
