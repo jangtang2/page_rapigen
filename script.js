@@ -47,11 +47,11 @@ function showCurrentPhoto() {
     }, 1000); // Additional delay for the sub_text
 }
 
-let intervalId = setInterval(showNextPhoto, 7000);
+let intervalId = setInterval(showNextPhoto, 3000);
 
 function resetTimer() {
     clearInterval(intervalId);
-    intervalId = setInterval(showNextPhoto, 7000);
+    intervalId = setInterval(showNextPhoto, 3000);
 }
 
 // Initialize the first photo
