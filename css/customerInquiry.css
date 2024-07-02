@@ -147,6 +147,13 @@
     justify-content: center;
     flex-direction: column;
 }
+.card img{
+    height: 60%;
+    margin:2vw 2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .card .fa{
     font-size: 6vw;
 }
@@ -170,10 +177,15 @@
     flex-direction: column;
     justify-content: center;
 }
-.between>div{
-    width: 100%;
+.between > div {
+    width: 0;
     height: 1px;
     background-color: gray;
+    transition: width 0.3s; /* 애니메이션 지속 시간을 설정합니다. */
+}
+
+.between > div.animate {
+    width: 100%;
 }
 .time_inform{
     margin-bottom: 5vw;
@@ -242,4 +254,29 @@
 .inform_content p{
     font-size: 16px;
     margin-bottom: 10%;
+}
+/*----------showbox---------*/
+.showBox{
+    opacity: 0;
+    transform: translateY(20%);
+    transition:  all 1s ease-in-out;
+}
+.showBox.lv1{
+    transition-delay: 0s;
+}
+.showBox.lv2{
+    transition-delay: 0.3s;
+}
+.showBox.lv3{
+    transition-delay: 0.60s;
+}
+.showBox.lv4{
+    transition-delay: 0.90s;
+}
+.showBox.lv5{
+    transition-delay: 1.2s;
+}
+
+.showBox.slow{
+    transition:  all 1.5s ease-in-out;
 }
