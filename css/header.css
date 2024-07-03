@@ -268,3 +268,15 @@ ul li{
     width: 100%;
 
 }
+/*-------------------------------------- phone -------------------------*/
+@media all and (max-width:479px) {
+    #header{
+        display: none;
+    }
+    .m_header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+  }
