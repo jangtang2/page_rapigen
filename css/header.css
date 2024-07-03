@@ -278,14 +278,24 @@ ul li{
         display: none;
     }
     .m_header{
-        width: 100vw;
-        height: 10vh;
+        width: 90vw;
+        height: 10vw;
         display: flex;
         justify-content: space-between;
         background-color: white;
+        padding: 5vw;
     }
-    .m_header> img{
-        margin: 3vh 3vh;
+    .m_header> a{
+       width: 30%;
+       height: 100%;
+    }
+    .m_header> a>img{
+        width: 100%;
+        height: 100%;
+    }
+    .m_header>img{
+        width: 10%;
+        height: 100%;
     }
   }
 @media all and (min-width:480px) {
