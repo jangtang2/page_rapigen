@@ -9,9 +9,7 @@ header{
     font-family: ‘SUIT’, sans-serif;
     background-color: rgba(129, 57, 57, 0);
 }
-.m_header{
-    display: none;
-}
+
 .main_header{
     display: flex;
     justify-content: left;
@@ -272,7 +270,10 @@ ul li{
 
 }
 /*-------------------------------------- phone -------------------------*/
-@media all and (max-width:479px) {
+@media(max-width:479px) {
+    body{
+        min-width: initial;
+    }
     #header{
         display: none;
     }
@@ -282,5 +283,17 @@ ul li{
         display: flex;
         justify-content: space-between;
         background-color: white;
+    }
+    .m_header> img{
+        margin:5vw 5vw;
+        
+    }
+  }
+@media all and (min-width:480px) {
+    #header{
+        display: block;
+    }
+    .m_header{
+        display: none;
     }
   }
