@@ -9,6 +9,9 @@ header{
     font-family: ‘SUIT’, sans-serif;
     background-color: rgba(129, 57, 57, 0);
 }
+.m_header{
+    display: none;
+}
 .main_header{
     display: flex;
     justify-content: left;
