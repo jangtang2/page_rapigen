@@ -1,0 +1,256 @@
+.banner_section{
+    width: 100vw;
+    height: 35vw;
+    position: relative;
+    margin-bottom: 10vw;
+}
+.banner_back{
+    height: 100%;
+    width: 100%;
+    background-color: #C8102E;
+    position: absolute;
+
+}
+.banner_back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner_front{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.front_text{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.big_title,.root_title{
+    text-align: center;
+    color: white;
+    
+}
+.big_title{
+    font-size: 4vw;
+    font-weight: 600;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+.root_title{
+    height: 1.5vw;
+    width: 100%;
+    font-size: 1vw;
+    justify-content: center;
+    display: flex;
+}
+.root_title > .root_inner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.root_inner > img{
+    height: 0.8vw;
+}
+.root_inner > .homeI{
+    height: 1vw;
+    width: 1vw;
+}
+.root_inner.arrow{
+    margin: 0 1vw;
+}
+.front_btn_list{
+    backdrop-filter: blur(3px);
+    height: 15%;
+    width: 100%;
+    background-color: #44548096;
+    display: flex;
+    justify-content: center;
+}
+.front_btn_list >a{
+    height: 100%;
+    width: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+}
+.front_btn_list > .active{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+.title_banner{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: bisque;
+}
+.title_banner >div{
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0 15%;
+}
+.inner_body{
+    width: 80%;
+    padding: 0px 10%;
+}
+.intro_section{
+    width: 100%;
+    text-align: center;
+}
+.large_text{
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+.small_text{
+    font-size: 1.2vw;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    line-height: 1.8vw;
+    margin-bottom: 5%;
+}
+.small_text .bold_text{
+    font-weight: 700;
+    color: black;
+}
+.btn_section{
+    width: 100%;
+}
+.large_cates{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.large_cate{
+    width: 25%;
+}
+.large_cate:last-of-type{
+    width: 80%;
+}
+.l_cate_name{
+    width: 100%;
+    height: 1.5vw;
+    font-size: 1.2vw;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1vw;
+    color: #8a8a8a;
+}
+.l_cate_name.active{
+    color: #C8102E;
+}
+.l_cate_bar{
+    background-color: #d8d8d8;
+    height: 2px;
+    width: 100%;
+}
+.l_cate_bar.active{
+    background-color: #C8102E;
+}
+.sub_cate_section{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.sub_cate_row{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+.sub_cate_btn{
+    width: 15%;
+    border: solid 1px #646363;
+    text-align: center;
+    padding:  0.5vw 0;
+    border-radius: 100vw;
+    margin-right: 1%;
+}
+.sub_cate_btn.active{
+    background-color: #C8102E;
+    border: solid 1px #C8102E;
+    color: white;
+}
+.sub_cate_btn.hidden{
+    border-color: #64636300;
+}
+.sub_cate_row .sub_cate_btn:last-of-type{
+    margin-right: 0%;
+}
+.prod_item_section{
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.prod_item_section.active{
+    display: flex;
+}
+.prod_item{
+    width: 24vw;
+    height: 24vw;
+    border: solid 1px #e5e5e5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    position: relative;
+}
+.prod_item{
+    color: black;
+}
+.prod_item h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2vw;
+}
+.prod_item h2{
+    width: 100%;
+    text-align: center;
+    font-size: 0.8vw;
+    margin-top: 2%;
+}
+.prod_item .hover_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #64636373;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+.prod_item:hover .hover_cover{
+    display: flex;
+}
+.hover_cover div{
+    margin: 0 auto;
+    color: white;
+    border: white 1px solid;
+    padding: 1vw 2vw;
+}
+.prod_img{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.prod_img img{
+    width: 100%;
+}
