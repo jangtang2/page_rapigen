@@ -207,6 +207,7 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 5%;
+    position: relative;
 }
 .prod_item{
     color: black;
@@ -221,6 +222,26 @@
     text-align: center;
     font-size: 0.8vw;
     margin-top: 2%;
+}
+.prod_item .hover_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #64636373;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+.prod_item:hover .hover_cover{
+    display: flex;
+}
+.hover_cover div{
+    margin: 0 auto;
+    color: white;
+    border: white 1px solid;
+    padding: 1vw 2vw;
 }
 .prod_img{
     width: 100%;
