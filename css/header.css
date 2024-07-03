@@ -278,15 +278,14 @@ ul li{
         display: none;
     }
     .m_header{
-        width: 100%;
+        width: 100vw;
         height: 10vh;
         display: flex;
         justify-content: space-between;
         background-color: white;
     }
     .m_header> img{
-        margin:5vw 5vw;
-        
+        margin: 3vh 3vh;
     }
   }
 @media all and (min-width:480px) {
