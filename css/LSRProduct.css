@@ -190,12 +190,12 @@
 .sub_cate_row .sub_cate_btn:last-of-type{
     margin-right: 0%;
 }
-ul{
+.prod_list ul{
     border-top: 2px black solid;
     padding-top: 1.5vw;
     margin-bottom: 5vw;
 }
-li{
+.prod_list li{
     height: 2vw;
     border-bottom: 2px rgb(206, 206, 206) solid;
     padding-bottom: 1.5vw;

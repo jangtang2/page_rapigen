@@ -5,7 +5,7 @@ function lc(){
     window.location.href="LSR_product.html"
 }
 function cc(){
-    window.location.href="animal_product.html"
+    window.location.href="CnD_product.html"
 }
 
 l_btn.addEventListener('click', lc)
