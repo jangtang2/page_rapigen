@@ -44,8 +44,10 @@ body{
                 emailjs.sendForm('service_kcvyy0m', 'template_1h9p20u', this)
                     .then(() => {
                         console.log('SUCCESS!');
+                        alert("Email has been sent successfully.");
                     }, (error) => {
                         console.log('FAILED...', error);
+                        alert("FAILED...");
                     });
             });
         }
@@ -185,18 +187,22 @@ body{
             <div><label>Name<h6>*</h6></label><input type="text" name="from_name" placeholder="Name" required></div>
             <div><label>E-mail<h6>*</h6></label><input type="email" name="from_email" placeholder="E-mail" required></div>
             <div><label>Tel</label><input type="tel" name="tel" placeholder="Tel"></div>
-            <div><label>Country</label><input type="text" name="country" placeholder="Country"></div>
+            <div class="radio_input">
+                <label>Country<h6>*</h6></label>
+                <div>
+                    <div class="radio_section"><input class="radio" type="radio" name="country" value="USA" required>USA<input class="radio" id="other" type="radio" name="country" value="other" required>Other Countries</div>
+                    <div class="detail_country"><label></label><input type="text" name="country" placeholder="Country"></div>
+                </div>
+                
+            </div>
             <div><label>Company</label><input type="text" name="company" placeholder="Company"></div>
             <div><label>Position</label><input type="text" name="position" placeholder="Position"></div>
             <div><label>Message<h6>*</h6></label><textarea name="message" placeholder="The person in charge of each field will check and respond quickly." required></textarea></div>
-            <label class="checkbox_label">
-                <input type="checkbox" class="option-input checkbox" required />I agree with the personal information processing policy and register.
-            </label>
+            <div><label class="checkbox_label"></label><input type="checkbox" class="option-input checkbox" required />I agree with the personal information processing policy and register.</div>
             <article class="submit_btn" id="submit_btn"><input type="submit" value="Send"></article>
             
         </div>
     </form>
-    <script src="js/emailSuccess.js"></script>
 
     <footer>
         <div class="footer_row">
