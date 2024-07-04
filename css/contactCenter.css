@@ -94,32 +94,88 @@
     width: 100%;
     margin-bottom: 5vw;
 }
-col:nth-of-type(1){
-    width: 10%;
+.title_section{
+    width: 70%;
+    margin-bottom: 5%;
 }
-col:nth-of-type(2){
-    width: 75%;
+.title_section h1{
+    font-size: 2vw;
 }
-col:nth-of-type(3){
-    width: 15%;
+.btn_section{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
 }
-table{
-    border-top: 2px solid black;
-    border-collapse: collapse;
+.for_hover{
+    height: 100%;
+    width: 45%;
+    position: relative;
+    background-color: aqua;
 }
-thead{
-    height: 3vw;
-    background-color: wheat;
+.contact_btn{
+    width: 100%;
+    height: 100%;
 }
-tr{
-    height: 2.5vw;
-    border-bottom: 1px lightgrey solid;
+.location{
+    width: 100%;
+    height: 20%;
+    background-color: #C8102E;
 }
-tr>td:first-of-type{
+.back_img{
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.for_hover:hover .contact_btn{
+    filter: brightness(0.3);
+    transition: all 0.5s;
+}
+#usa{
+    background-image: url("https://images.unsplash.com/photo-1500277127996-2e6206b069ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#other{
+    background-image: url("https://images.unsplash.com/photo-1576185850227-1f72b7f8d483?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.location{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 800;
 }
-tr>td:last-of-type{
+.text_on_img{
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
     text-align: center;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: rgba(245, 245, 220, 0);
+}
+.text_on_img div{
+    height: 0%;
+}
+.for_hover:hover .text_on_img{
+    color: white;
+    transition: all 0.5s;
+}
+.for_hover:hover .text_on_img div{
+    height: 30%;
+    transition: all 0.5s;
 }
 /*----------showbox---------*/
 .showBox{
