@@ -51,10 +51,10 @@ body{
             emailjs.sendForm(serviceID, templateID, this)
                 .then(() => {
                     console.log('SUCCESS!');
-                    alert("SUCCESS");
+                    alert("작성하신 문의사항이 잘 전달되었습니다.\n빠른 시일 내에 회신드리겠습니다.\n\n감사합니다😊");
                 }, (error) => {
                     console.log('FAILED...', error);
-                    alert("FAILED...");
+                    alert("문의 내용 전송에 실패했습니다.\n다시 시도해주세요.");
                 });
         });
     }
