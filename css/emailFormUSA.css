@@ -85,9 +85,10 @@ label>h6{
 .radio_section input{
     width: 1vw;
     margin-right: 0.5vw;
-}
-#other{
     margin-left: 2vw;
+}
+#kor{
+    margin-left: 0vw;
 }
 .submit_btn{
     width: 100%;

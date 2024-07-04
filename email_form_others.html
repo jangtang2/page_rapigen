@@ -29,22 +29,30 @@ body{
 </style>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-              publicKey: "lHfU2l5Pmy9wGOUNF",
-            });
-        })();
-    </script>
-    <script type="text/javascript">
         window.onload = function() {
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
-                // these IDs from the previous steps
-                emailjs.sendForm('service_kcvyy0m', 'template_1h9p20u', this)
+    
+                // 선택된 라디오 버튼의 값을 확인
+                const country = document.querySelector('input[name="country"]:checked').value;
+                
+                // 기본 service와 template ID
+                let serviceID = 'service_w7gempk';
+                let templateID;
+    
+                // "USA"가 선택된 경우 다른 service와 template ID 사용
+                if (country === 'USA') {
+                    templateID = 'template_1h9p20u';
+                }
+                else if (country === 'other') {
+                    templateID = 'template_1hr9ydn';
+                }
+    
+                // emailjs.sendForm 호출 시 변경된 service와 template ID 사용
+                emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         console.log('SUCCESS!');
-                        alert("Email has been sent successfully.");
+                        alert("SUCCESS");
                     }, (error) => {
                         console.log('FAILED...', error);
                         alert("FAILED...");
@@ -52,6 +60,15 @@ body{
             });
         }
     </script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "lHfU2l5Pmy9wGOUNF",
+            });
+        })();
+    </script>
+    
 </head>
 <body>
     <header id="header">
@@ -190,7 +207,7 @@ body{
             <div class="radio_input">
                 <label>Country<h6>*</h6></label>
                 <div>
-                    <div class="radio_section"><input class="radio" type="radio" name="country" value="USA" required>USA<input class="radio" id="other" type="radio" name="country" value="other" required>Other Countries</div>
+                    <div class="radio_section"><input id="kor" class="radio" type="radio" name="country" value="Korea" required>Korea<input class="radio" type="radio" name="country" value="USA" required>USA<input class="radio" type="radio" name="country" value="other" required>Other Countries</div>
                     <div class="detail_country"><label></label><input type="text" name="country" placeholder="Country"></div>
                 </div>
                 
