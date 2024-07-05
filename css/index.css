@@ -133,7 +133,7 @@
 }
 .slide_sub_title{
     font-size: 1.9vw;
-    width: 80%;
+    width: 100%;
     text-align: left;
     line-height: 3vw;
     margin-bottom: 3%;
@@ -357,7 +357,7 @@
 }
 .card_set{
     display: flex;
-    width: 80%;
+    width: 100%;
     position: relative;
 }
 .back_text{
@@ -437,58 +437,42 @@
     margin-left: 0.8vw;
     text-align: center;
 }
+.block_section{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
 .news_block1{
-    width: 50%;
-    height: 50svh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    border-top: solid .0625rem #C8102E;
-    padding-top: 0.6vw;
-}
-.news_block1.lv1{
-    
-    margin-left: 0;
-    margin-right: 1%;
-
-}
-.news_block2:nth-of-type(1){
-    height: 50%;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
-.news_block2:nth-of-type(2){
-    height: 45%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;    
-}
-.news_block3{
-    border-top: solid 1px #C8102E;
-    width: 48%;
+    width: 30%;
     height: 100%;
-    background-color: white;
-    
+}
+.subnail_img{
+    width: 100%;
+    height: 15vw;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+.subnail_text{
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.subnail_text > h1{
+    font-size: 1.2vw;
+    color: #C8102E;
+    font-weight: 800;
+}
+.subnail_text > h2{
+    font-size: 1.5vw;
+    font-weight: 800;
 }
 .news_thumb_L{
     height: 90%;
     background-size: cover;
     background-image: url("https://images.unsplash.com/flagged/photo-1560790959-94da781aa017?q=80&w=2125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-.news_text_L{
-    margin: 5% 0;
-}
-.news_title_L{
-    font-size: 1.5vw;
-    text-align: left;
-    font-weight: 600;
-    margin-bottom: 1vw;
-}
-.news_detail_L{
-    font-size: 1.3vw;
-    text-align: left;
 }
 .news_thumb{
     width: 35%;
@@ -496,16 +480,6 @@
     background-size: cover;
     background-position: center;
     background-image: url("https://www.rapigen-inc.com//upload/SmartEditor2/2404/9b65caf5f7158ed0ff7a68ce74c3f940_1713857726_2937.png");
-}
-.news_text_M{
-    width: 65%;
-    height: 100%;
-    padding: 1vw 1.5vw;
-}
-.news_text_S{
-    width: 90%;
-    height: 100%;
-    padding: 1.8vw 0px;
 }
 
 .news_title{
@@ -519,12 +493,11 @@
 }
 .news_detail{
     text-align: left;
-    margin-top: 1vw;
     font-size: 1vw;
     overflow: hidden;
     display: -webkit-box;
     text-overflow: ellipsis;
-    line-height:1.3vw;
+    line-height:1.5vw;
     white-space: normal;
     word-wrap : break-word;
     -webkit-line-clamp : 4;
