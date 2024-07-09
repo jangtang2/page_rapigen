@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", function() {
           window.location.href = 'animal_product.html'; 
         }
         else if (card.id === 'card3') {
-            window.location.href = '#'; 
+            window.location.href = 'LSR_product.html'; 
         }
         else if (card.id === 'card4') {
-            window.location.href = '#';
+            window.location.href = 'CnD_product.html';
         }
         // 추가적인 카드가 있을 경우에도 else if 문을 추가하여 다른 페이지로 이동시킬 수 있습니다.
       });
