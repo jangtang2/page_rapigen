@@ -115,7 +115,6 @@
     padding: 0% 10%;
 }
 .core.prod{
-    display: flex;
 }
 .slide_title{
     width: 80%;
@@ -158,24 +157,29 @@
     font-weight: 800;
 }
 .text_zone{
-    width: 50%;
-
+    width: 100%;
+    margin-bottom: 5%;
 }
 .card_zone{
-    width: 50%;
+    width: 100%;
     display: flex;
 }
 .text_zone h2{
     font-size: 3vw;
-    margin-top: 5%;
-    margin-bottom: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     line-height: 4vw;
 }
 .text_zone h5{
     font-size: 1.3vw;
     line-height: 2vw;
     font-weight: 400;
-    margin-bottom: 20%;
+    margin-bottom: 0;
+}
+.align_box{
+    width: 100%;
+    display: flex;
+    justify-content: right;
 }
 .VM_zone{
     width: max-content;
@@ -199,10 +203,6 @@
     height: 1.5vw;
     width: 1.5vw;
 }
-.cards{
-    width: 40%;
-    margin-left: 10%;
-}
 .card {
     width: 100%;
     height: 16vw;
@@ -211,8 +211,14 @@
     background-color: white;
     position: relative;
     padding-top: 2vw;
+    margin: 0 1vw;
 }
-
+.card:first-of-type{
+    margin-left: 0;
+}
+.card:last-of-type{
+    margin-right: 0;
+}
 .card::before {
     content: '';
     position: absolute;
