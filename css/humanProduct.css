@@ -110,6 +110,7 @@
 .intro_section{
     width: 100%;
     text-align: center;
+    margin-bottom: 12%;
 }
 .large_text{
     font-size: 3vw;
@@ -129,6 +130,7 @@
 }
 .btn_section{
     width: 100%;
+    margin-bottom: 1.5vw;
 }
 .large_cates{
     width: 100%;
@@ -136,10 +138,10 @@
     margin-bottom: 10px;
 }
 .large_cate{
-    width: 10%;
+    width: 15%;
 }
 .large_cate:last-of-type{
-    width: 80%;
+    width: 70%;
 }
 .l_cate_name{
     width: 100%;
@@ -162,7 +164,7 @@
     background-color: #C8102E;
 }
 .sub_cate_section{
-    width: 100%;
+    width: 80%;
     margin-top: 1%;
     margin-bottom: 5%;
 }
@@ -172,7 +174,7 @@
     margin: 1%;
 }
 .sub_cate_btn{
-    width: 15%;
+    width: 20%;
     border: solid 1px #646363;
     text-align: center;
     padding:  0.5vw 0;
@@ -191,10 +193,11 @@
     margin-right: 0%;
 }
 .prod_item_section{
-    width: 100%;
+    width: 95%;
     display: none;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 .prod_item_section.active{
     display: flex;
