@@ -140,13 +140,6 @@
     text-align: center;
     align-items: center;
 }
-.card i{
-    height: 60%;
-    margin:2vw 2vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 .card img{
     height: 60%;
     margin:2vw 2vw;
@@ -154,12 +147,7 @@
     justify-content: center;
     flex-direction: column;
 }
-.card .fa{
-    font-size: 6vw;
-}
-.card .fas{
-    font-size: 8vw;
-}
+
 .card h6{
     font-size: 1.3vw;
     color: #C8102E;
