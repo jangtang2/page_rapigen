@@ -111,8 +111,8 @@
     display: flex;
 }
 .img_zone{
-    width: 400px;
-    height: 400px;
+    width: 25vw;
+    height: 25vw;
     background-color: aqua;
 }
 .img_zone img{
@@ -121,31 +121,31 @@
 }
 .text_zone{
     width: 60%;
-    height: 400px;
+    height: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5%;
 }
 .txt_m{
-    font-size: 22px;
+    font-size: 2vw;
     font-weight: 800;
 }
 .txt_l{
-    font-size: 28px;
+    font-size: 3vw;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 .txt_s{
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 10px;
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-bottom: 2.5vw;
 }
 .txt_xs{
-    font-size: 12px;
+    font-size: 1vw;
     font-weight: 600;
     color: #646363;
-    line-height: 20px;
+    line-height: 1.5vw;
 }
 .specification_section{
     width: 70%;
@@ -154,10 +154,10 @@
     display: flex;
 }
 .dot{
-    width: 10px;
-    height: 20px;
+    width: 5px;
+    height: 1.5vw;
     background-color: #C8102E;
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 table{
     width: 100%;
@@ -178,7 +178,7 @@ th{
     border-color: #c0c0c0;
     border-width: 1px;
     font-weight: 800;
-    padding-left: 5px;
+    padding-left: 0;
     color: #3f3f3f;
 }
 .spec_table th{
@@ -193,7 +193,7 @@ td{
     border-width: 1px;
     color: #646363;
     font-weight: 500;
-    padding: 10px 0;
+    padding: 1vw 0;
 }
 .spec_table td{
     width: 85%;
@@ -233,20 +233,19 @@ td{
 .btn{
     display: flex;
     justify-content: right;
-    margin-left: 40px;
     margin-bottom: 1vw;
 }
 .btn_name{
-    font-size: 18px;
-    margin-right: 5px;
+    font-size: 1.2vw;
+    margin-right:1vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 5vw;
     background-color: #646363;
 }
 .big_btn_section{
@@ -255,10 +254,10 @@ td{
     justify-content: center;
 }
 .big_btn_section a{
-    padding: 10px 60px;
+    padding: 1vw 3vw;
     background-color: #C8102E;
     color: white;
-    font-size: 22px;
-    border-radius: 100px;
+    font-size: 1.5vw;
+    border-radius: 5vw;
     margin-bottom: 10%;
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 9">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #8c8c8c;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .48px;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-2" cx="4.5" cy="4.5" r="4.5"/>
+  <g id="Icons_Navigation_icon_12_states_" data-name="Icons Navigation icon 12 states ">
+    <g id="ic_inbox" data-name="ic inbox">
+      <path id="_패스_376" data-name="패스 376" class="cls-1" d="M1.21,1.18h6.71v6.71H1.21V1.18Z"/>
+      <rect id="_사각형_603" data-name="사각형 603" class="cls-3" x="1.93" y="2.38" width="5.27" height="4.31" rx=".48" ry=".48"/>
+      <path id="_패스_377" data-name="패스 377" class="cls-3" d="M1.93,3.23l2.64,1.44,2.64-1.44"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 9">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #8c8c8c;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .48px;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="cls-2" cx="4.5" cy="4.5" r="4.5"/>
+  <g id="ic-file-download">
+    <path id="_패스_437" data-name="패스 437" class="cls-1" d="M1.01.94h7.12v7.12H1.01V.94Z"/>
+    <path id="_패스_438" data-name="패스 438" class="cls-3" d="M5.16,1.83v1.19c0,.16.13.3.3.3h1.19"/>
+    <path id="_패스_439" data-name="패스 439" class="cls-3" d="M6.05,7.17h-2.97c-.33,0-.59-.27-.59-.59V2.42c0-.33.27-.59.59-.59h2.08l1.48,1.48v3.26c0,.33-.27.59-.59.59Z"/>
+    <line id="_선_29" data-name="선 29" class="cls-3" x1="4.6" y1="4.3" x2="4.6" y2="5.97"/>
+    <path id="_패스_440" data-name="패스 440" class="cls-3" d="M3.68,5.09l.89.89.89-.89"/>
+  </g>
+</svg>
