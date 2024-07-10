@@ -56,7 +56,7 @@
 .root_inner > img{
     height: 0.8vw;
 }
-.root_inner > .homeI{
+.root_inner .homeI{
     height: 1vw;
     width: 1vw;
 }

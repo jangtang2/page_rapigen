@@ -216,8 +216,12 @@
 .card:first-of-type{
     margin-left: 0;
 }
+#card2{
+    margin-top: 2vw;
+}
 .card:last-of-type{
     margin-right: 0;
+    margin-top: 2vw;
 }
 .card::before {
     content: '';
