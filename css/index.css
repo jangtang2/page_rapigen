@@ -92,6 +92,7 @@
     width: 100%;
     position: relative;
     background-color: white;
+    overflow: hidden;
 }
 .back_img{
     height: 80%;
@@ -99,8 +100,8 @@
     width: 60%;
     object-fit: contain;
     z-index: 0;
-    left: -8vw;
-    top: 40%;
+    right: -8vw;
+    top: 0%;
     opacity: 30%;
 }
 .core{
@@ -205,12 +206,12 @@
 }
 .card {
     width: 100%;
-    height: 16vw;
+    height: 15vw;
     margin-bottom: 2.5vw;
     border-radius:  0 2vw 0 2vw;
     background-color: white;
     position: relative;
-    padding-top: 2vw;
+    padding: 3vw 0;
     margin: 0 1vw;
 }
 .card:first-of-type{
@@ -247,8 +248,8 @@
     font-weight: 400;
 }
 .card_btn{
-    width: 2vw;
-    height: 2vw;
+    width: 2.5vw;
+    height: 2.5vw;
     border-radius: 3vw;
     background-color: #bebebe;
     color: white;
@@ -259,7 +260,8 @@
     left: 2vw;
 }
 .card > img{
-    height: 5vw;
+    height: 7vw;
+    width: 6vw;
     position: absolute;
     bottom: 2vw;
     right: 2vw;
