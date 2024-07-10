@@ -93,9 +93,7 @@
     position: relative;
     background-color: white;
 }
-.white_space:first-of-type{
-    overflow: hidden;
-}
+
 .back_img{
     height: 80%;
     position: absolute;
