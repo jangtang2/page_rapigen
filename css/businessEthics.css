@@ -147,13 +147,13 @@
     width: 40px;
     height: 40px;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 1.5vw;
     margin-left: 2%;
     margin-right: 1%;
     color: #C8102E;
 }
 .summary_item h6{
-    font-size: 18px;
+    font-size: 1.1vw;
     font-weight: 500;
 }
 .detail_section{
