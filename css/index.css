@@ -79,9 +79,11 @@
     border-radius: 50%;
     cursor: pointer;
 }
-
 .buttons button:hover {
     background-color: #555;
+}
+.buttons button.active{
+    background-color: #C8102E;
 }
 /* ------------------second section-------------------*/
 .product_section{
