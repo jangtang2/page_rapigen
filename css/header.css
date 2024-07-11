@@ -9,6 +9,7 @@ header{
 }
 
 .main_header{
+    height: 6vw;
     display: flex;
     justify-content: left;
     background-color: white;
@@ -29,23 +30,17 @@ header{
     width: 13%;
     display: flex;
     justify-content: center;
-    margin-top: 2.5vw;
-    margin-bottom: 2vw;
     padding-left: 3%;
 }
 .middle_header{
     width: 74%;
     display: flex;
     justify-content: center;
-    margin-top: 1vw;
-    margin-bottom: 2vw;
 }
 .right_header{
     width: 13%;
     display: flex;
     justify-content: right;
-    margin-top: 2.5vw;
-    margin-bottom: 2vw;
     padding-right: 3%;
 }
 .left_header >a{
@@ -102,7 +97,7 @@ ul li{
 
 .category{
     display: flex ;
-    justify-content: left;
+    justify-content: center;
 }
 
 .category >ul > li{
@@ -112,10 +107,12 @@ ul li{
     font-weight: 600;
     margin: 0 1vw;
     font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .category >ul > li>a{
     height: 80%;
-    margin-top: 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
