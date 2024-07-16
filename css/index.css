@@ -4,12 +4,17 @@
 .inner_body{
     width: 100vw;
 }
+.body1{
+    display: flex;
+    margin-bottom: 1vw;
+}
 /*---------자동 넘김 슬라이드------------*/
 .photo-frame {
     position: relative;
-    width: 100vw;
-    height: 88vh;
+    width: 60%;
+    height: 55vh;
     overflow: hidden;
+    border-radius: 0 1vw 1vw 0;
 }
 
 .photos {
@@ -46,7 +51,7 @@
 }
 
 .text-overlay .main_text {
-    font-size: 3.2vw;
+    font-size: 2vw;
     margin-bottom: 1vw;
     opacity: 0;
     transform: translateY(60%);
@@ -55,7 +60,7 @@
 }
 
 .text-overlay .sub_text {
-    font-size: 1.3vw;
+    font-size: 0.5vw;
     opacity: 0;
     transform: translateY(60%);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
@@ -64,7 +69,7 @@
 .buttons {
     position: absolute;
     bottom: 20px;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
     z-index: 10; /* Ensure buttons are above the photos */
     display: flex;
@@ -84,6 +89,149 @@
 }
 .buttons button.active{
     background-color: #C8102E;
+}
+
+.news_cards{
+    width: 28%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+.news_card{
+    height: 48%;
+    width: 90%;
+    border-radius: 1vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.news_card:first-of-type{
+    background-color: #e0e0e0;
+}
+.news_card:last-of-type{
+    background-color: #6c6c6c;
+}
+.news_card_core{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+}
+.news_card_colum{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.news_card_title{
+    font-size: 1vw;
+    height: 100%;
+    width: 6vw;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    padding: 0 1.5vw;
+    border-radius: 5vw;
+    background-color: white;
+    color: #C8102E;
+    font-weight: 800;
+}
+.vm_btn_section{
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.vm_btn_section a{
+    height: 100%;
+    display: flex;
+}
+.vm_btn_section span{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1vw;
+}
+.vm_btn_section img{
+    height: 100%;
+    width:2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.subnail_text{
+    width: 95%;
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.youtubes{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.youtube_card{
+    width: 48%;
+    height: 100%;
+    border-radius: 0.3vw;
+    overflow: hidden;
+}
+.youtube_card a{
+    width: 100%;
+    height: 100%;
+}
+.yt_subnail{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+#youtube_main_text{
+    font-size: 0.9vw;
+    font-weight: 800;
+    margin-bottom: 0.8vw;
+    padding-left: 1%;
+}
+.indexs{
+    width: 12%;
+    position: relative;
+}
+.to_shop{
+    height: 25%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    border-radius: 1vw 0 0 1vw;
+    border: #C8102E solid 2px;
+}
+.to_shop a{
+    width: 100%;
+    height: 100%;
+}
+.index_section{
+
+    height: 71%;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border-radius: 1vw 0 0 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 1vw rgba(200, 200, 200, 0.662);
+}
+.index_item{
+    width: 90%;
+    height: 25%;
+}
+.white_text{
+    color: white;
 }
 /* ------------------second section-------------------*/
 .product_section{
@@ -467,20 +615,14 @@
     border-radius: 0.5vw;
     object-fit: cover;
 }
-.subnail_text{
-    width: 100%;
-    height: 15vw;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
+
 .subnail_text > h1{
-    font-size: 1.1vw;
+    font-size: 0.8vw;
     color: #C8102E;
     font-weight: 800;
 }
 .subnail_text > h2{
-    font-size: 1.5vw;
+    font-size: 0.9vw;
     font-weight: 800;
 }
 .news_thumb_L{
@@ -507,11 +649,11 @@
 }
 .news_detail{
     text-align: left;
-    font-size: 1vw;
+    font-size: 0.8vw;
     overflow: hidden;
     display: -webkit-box;
     text-overflow: ellipsis;
-    line-height:1.5vw;
+    line-height:1.1vw;
     white-space: normal;
     word-wrap : break-word;
     -webkit-line-clamp : 4;
