@@ -283,6 +283,7 @@ flex-direction: column;
 .prodtext_section h2{
     margin-top: 3%;
     font-size: 1vw;
+    font-weight: 400;
 }
 .prodtext_section span{
     color: #C8102E;
