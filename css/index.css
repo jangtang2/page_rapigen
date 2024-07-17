@@ -216,6 +216,7 @@ flex-direction: column;
     right: 0%;
     border-radius: 1vw 0 0 1vw;
     border: #C8102E solid 2px;
+    border-right: none;
     transition: all 0.5s ease-in-out;
 }
 .to_shop:hover{
@@ -289,19 +290,19 @@ flex-direction: column;
     color: #C8102E;
 }
 .prodcard_section{
-    width: 60%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
 }
 .prod_card{
-    width: 10vw;
-    height: 20vh;
-    background-color: rgb(241, 241, 241);
+    width: 12vw;
+    height: 22vh;
+    background-color:#F5F5F5;
     position: relative;
     border-radius: 0.6vw;
 }
 .prod_card:hover{
-    border: #C8102E solid 2px;
+    box-shadow: 0 0 0 2px #C8102E inset;
 }
 .card_text{
     font-weight: 800;
