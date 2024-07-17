@@ -160,6 +160,7 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 0.6vw;
 }
 .subnail_text{
     width: 95%;
@@ -208,10 +209,30 @@ flex-direction: column;
     right: 0%;
     border-radius: 1vw 0 0 1vw;
     border: #C8102E solid 2px;
+    transition: all 0.5s ease-in-out;
+}
+.to_shop:hover{
+    width: 100%;
 }
 .to_shop a{
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.shop_icon{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+.shop_text{
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
 }
 .index_section{
 
@@ -225,11 +246,19 @@ flex-direction: column;
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: 0 0 1vw rgba(200, 200, 200, 0.662);
+    transition: all 0.5s ease-in-out;
+}
+.index_section:hover{
+    width: 100%;
 }
 .index_item{
-    width: 90%;
-    height: 25%;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .white_text{
     color: white;
 }
