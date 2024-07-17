@@ -9,7 +9,7 @@ header{
 }
 
 .main_header{
-    height: 6vw;
+    height: 12vh;
     display: flex;
     justify-content: left;
     background-color: white;

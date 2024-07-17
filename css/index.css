@@ -8,6 +8,13 @@
     display: flex;
     margin-bottom: 1vw;
 }
+.body2{
+    height: 34vh;
+    background-color: #6c6c6c;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1vw;
+}
 /*---------자동 넘김 슬라이드------------*/
 .photo-frame {
     position: relative;
@@ -43,6 +50,7 @@
 }
 
 .text-overlay {
+    display: none;
     position: absolute;
     bottom: 25%;
     left: 9vw;
@@ -193,7 +201,7 @@ flex-direction: column;
 }
 #youtube_main_text{
     font-size: 0.9vw;
-    font-weight: 800;
+
     margin-bottom: 0.8vw;
     padding-left: 1%;
 }
@@ -258,9 +266,65 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
 }
-
+.prod_inner{
+    width: 78%;
+    height: 100%;
+    margin-left: 9%;
+    background-color: white;
+    display: flex;
+}
+.prodtext_section{
+    width: 40%;
+}
+.prodtext_section h1{
+    margin-top: 5%;
+}
+.prodtext_section span{
+    color: #C8102E;
+}
+.prodcard_section{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.prod_card{
+    width: 10vw;
+    height: 20vh;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    border-radius: 0.6vw;
+}
+.card_text{
+    width: 80%;
+    margin: 10%;
+}
+.card_btnn{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #6c6c6c;
+    border-radius: 10vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 10%;
+    left: 10%;
+}
+.card_btnn img{
+    width: 1vw;
+    height: 1vw;
+    margin: 0 auto;
+}
+.card_img{
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
 .white_text{
     color: white;
+    font-weight: 400;
 }
 /* ------------------second section-------------------*/
 .product_section{
@@ -647,7 +711,6 @@ flex-direction: column;
 
 .subnail_text > h1{
     font-size: 0.8vw;
-    color: #C8102E;
     font-weight: 800;
 }
 .subnail_text > h2{
@@ -715,18 +778,20 @@ flex-direction: column;
 
 
 .go_top{
-    width: 5svw;
-    height: 5svw;
+    width: 3vw;
+    height: 3vw;
     position: sticky;
-    bottom: 1svw;
-    margin-left: 93svw;
+    bottom: 2vw;
+    left: 94vw;
     z-index: 15;
-    background-color: #C8102E;
+    background-color: #ffffff;
     color: white;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border-radius: 10vw;
+    box-shadow: 0 0 1vw rgba(200, 200, 200, 0.662);
 }
 .go_top div{
     font-size: 1vw;
