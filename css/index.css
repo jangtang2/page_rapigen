@@ -10,7 +10,6 @@
 }
 .body2{
     height: 34vh;
-    background-color: #6c6c6c;
     display: flex;
     justify-content: left;
     margin-bottom: 1vw;
@@ -270,6 +269,7 @@ flex-direction: column;
     width: 78%;
     height: 100%;
     margin-left: 9%;
+    padding-top: 1%;
     background-color: white;
     display: flex;
 }
