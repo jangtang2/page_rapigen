@@ -8,7 +8,7 @@ footer{
 footer.main_footer{
     position: absolute;
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     background-color: #232424;
     display: flex;
     justify-content: center;

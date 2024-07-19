@@ -35,7 +35,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
+    opacity: 100%;
     transition: opacity 1s ease-in-out;
 }
 
@@ -243,6 +243,7 @@ flex-direction: column;
     width: 100%;
     font-weight: 600;
     text-align: center;
+    font-size: 0.9vw;
 }
 .index_section{
 
@@ -314,7 +315,7 @@ flex-direction: column;
 .card_btnn{
     width: 1.5vw;
     height: 1.5vw;
-    background-color: #6c6c6c;
+    background-color: #a2a2a2;
     border-radius: 10vw;
     position: absolute;
     display: flex;
@@ -824,7 +825,7 @@ flex-direction: column;
 }
 
 /*-------------------------------------- phone -------------------------*/
-@media(max-width:479px) {
+@media(max-width:1500px) {
     body{
         min-width: initial;
     }
